@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class CharMove : MonoBehaviour
 {
-    [SerializeField] private CharacterController controller;
-    [SerializeField] private Rigidbody rb;
+    //[SerializeField] private CharacterController controller;
+    /*[SerializeField] */private Rigidbody rb;
     [SerializeField] private float speed;
     [SerializeField] private Transform orientation;
     // Start is called before the first frame update
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        //controller = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
