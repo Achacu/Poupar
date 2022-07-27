@@ -5,7 +5,7 @@ using System;
 
 public class Interact : MonoBehaviour
 {
-    public event Action<bool> OnCanInteractChange = delegate { };
+    public static event Action<bool> OnCanInteractChange = delegate { };
     private bool canInteract = false;
     [SerializeField] private float interactCheckDelta = 1f;
     [SerializeField] private LayerMask interactMask;
@@ -29,9 +29,14 @@ public class Interact : MonoBehaviour
         playerInput.Controls.General.Interact.performed -= PressedInteract;
     }
 
+    private Interactable lastInteractable;
     private void PressedInteract(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
-        if (canInteract) print("interacted!");
+        if (canInteract)
+        {
+            print("interacted!");
+            lastInteractable?.Interact();
+        }
         else print("can't interact");
     }
 
@@ -52,8 +57,9 @@ public class Interact : MonoBehaviour
                 {
                     OnCanInteractChange(true);
                     canInteract = true;
-                    print("started interact: "+canInteract);
-                } 
+                    print("started interact: "+canInteract);                    
+                }
+                lastInteractable = hit.collider.GetComponent<Interactable>();
             }
             else
             {
