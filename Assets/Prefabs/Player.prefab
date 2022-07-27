@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6362894679334883625}
   - component: {fileID: 6362894679334883622}
   - component: {fileID: 1111880242095402475}
+  - component: {fileID: 8718759643583567277}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -138,6 +139,7 @@ MonoBehaviour:
   speed: 5
   orientation: {fileID: 6362894679788234937}
   playerInput: {fileID: 1111880242095402475}
+  maxSpeedChange: 1
 --- !u!54 &6362894679334883622
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -166,6 +168,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64cdb91705286e499215549e55158f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8718759643583567277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362894679334883631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e7e76a4a32ef6e4b8e7e5c62b97d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactCheckDelta: 0.1
+  interactMask:
+    serializedVersion: 2
+    m_Bits: 64
+  camT: {fileID: 0}
+  maxInteractRayDst: 2.5
+  playerInput: {fileID: 1111880242095402475}
 --- !u!1 &6362894679788234936
 GameObject:
   m_ObjectHideFlags: 0

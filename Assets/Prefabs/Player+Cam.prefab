@@ -88,6 +88,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8718759643583567277, guid: 88a0e5a9415050543a9026d769534bbc, type: 3}
+      propertyPath: camT
+      value: 
+      objectReference: {fileID: 5277244241589315845}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88a0e5a9415050543a9026d769534bbc, type: 3}
 --- !u!114 &169866348669537395 stripped
@@ -95,7 +99,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1111880242095402475, guid: 88a0e5a9415050543a9026d769534bbc, type: 3}
   m_PrefabInstance: {fileID: 951752362440171928}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6158891587810635959}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64cdb91705286e499215549e55158f5, type: 3}
@@ -106,30 +110,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6362894679334883624, guid: 88a0e5a9415050543a9026d769534bbc, type: 3}
   m_PrefabInstance: {fileID: 951752362440171928}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6158891587810635959 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6362894679334883631, guid: 88a0e5a9415050543a9026d769534bbc, type: 3}
-  m_PrefabInstance: {fileID: 951752362440171928}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1107120751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6158891587810635959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e7e76a4a32ef6e4b8e7e5c62b97d7c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactCheckDelta: 0.1
-  interactMask:
-    serializedVersion: 2
-    m_Bits: 64
-  camT: {fileID: 5277244241589315845}
-  maxInteractRayDst: 2.5
-  playerInput: {fileID: 169866348669537395}
 --- !u!4 &6158891589216405793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6362894679788234937, guid: 88a0e5a9415050543a9026d769534bbc, type: 3}

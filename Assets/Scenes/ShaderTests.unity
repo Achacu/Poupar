@@ -178,7 +178,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player+Cam
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
 --- !u!1001 &634477350
 PrefabInstance:
