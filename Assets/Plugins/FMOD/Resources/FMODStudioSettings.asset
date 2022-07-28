@@ -182,10 +182,10 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131588
   Platforms:
-  - {fileID: 2603950867747526196}
-  - {fileID: 3892096180289879944}
   - {fileID: -2817234142518267876}
   - {fileID: -2519199856565979058}
+  - {fileID: 2603950867747526196}
+  - {fileID: 3892096180289879944}
   MigratedPlatforms: 09000000080000000200000001000000
 --- !u!114 &2603950867747526196
 MonoBehaviour:
