@@ -4,6 +4,7 @@ Shader "Custom/ShowByCollisionShader"
     {
         _Color ("Color", Color) = (1,1,1,1)
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
+        _BumpMap("Normalmap", 2D) = "bump" {}
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _Metallic ("Metallic", Range(0,1)) = 0.0        
         _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
@@ -21,6 +22,7 @@ Shader "Custom/ShowByCollisionShader"
             ColorMask 0
         }
 	ZWrite Off
+    //Cull off
 	//Blend SrcAlpha OneMinusSrcAlpha
     //Blend One One
     CGPROGRAM
@@ -32,6 +34,7 @@ Shader "Custom/ShowByCollisionShader"
         #pragma target 3.0
 
         sampler2D _MainTex;
+        sampler2D _BumpMap;
 
         struct Input
         {
@@ -63,16 +66,17 @@ Shader "Custom/ShowByCollisionShader"
 
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
-            
-            fixed dstToHitPoint = (_Colliding != 0)? distance(_ColPos, IN.posWorld) : 0;
-            o.Alpha = (_Colliding == 0)? 0 : (dstToHitPoint < _ColAreaRadius)? _Colliding : 0;
-            
             // Albedo comes from a texture tinted by color
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
+            
+            fixed dstToHitPoint = (_Colliding != 0)? distance(_ColPos, IN.posWorld) : 0;
+            o.Alpha = (_Colliding == 0)? 0 : (dstToHitPoint < _ColAreaRadius)? (_Colliding * c.a) : 0;
+            
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables
             o.Metallic = _Metallic;
             o.Smoothness = _Glossiness;
+            o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));
             //o.Alpha = IN.color.a;
         }
         ENDCG
