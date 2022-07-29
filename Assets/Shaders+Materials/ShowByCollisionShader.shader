@@ -12,7 +12,7 @@ Shader "Custom/ShowByCollisionShader"
         _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
         _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
         _Colliding ("Colliding", Range(0,1)) = 0
-        _ColPos ("Collision Position", Vector) = (0,0,0,0)
+        //_ColPos ("Collision Position", Vector) = (0,0,0,0)
         _ColAreaRadius ("Collision Area Radius", Range(0,5)) = 1        
     }
     SubShader
@@ -29,7 +29,7 @@ Shader "Custom/ShowByCollisionShader"
     //Blend One One
     CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma vertex vert
+        //#pragma vertex vert
         #pragma surface surf Standard fullforwardshadows alpha:fade 
         
         // Use shader model 3.0 target, to get nicer looking lighting
@@ -43,7 +43,8 @@ Shader "Custom/ShowByCollisionShader"
         {
             float2 uv_MainTex;
             float2 uv_MetallicGlossMap;
-            float3 posWorld;
+            //float3 posWorld;
+            float3 worldPos;
         };
 
         half _Glossiness;
@@ -53,14 +54,15 @@ Shader "Custom/ShowByCollisionShader"
         fixed _UpperBlindTh;
 
         fixed _Colliding;
-        fixed4 _ColPos;
         fixed _ColAreaRadius;
 
-        void vert (inout appdata_full v, out Input o) {
-          //v.vertex.xyz += v.normal;
-          UNITY_INITIALIZE_OUTPUT(Input,o);
-          o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-        }
+        fixed4 _ColPoints[10];
+
+        // void vert (inout appdata_full v, out Input o) {
+        //   //v.vertex.xyz += v.normal;
+        //   UNITY_INITIALIZE_OUTPUT(Input,o);
+        //   o.posWorld = mul(unity_ObjectToWorld, v.vertex);
+        // }
         // Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
         // See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
         // #pragma instancing_options assumeuniformscaling
@@ -73,8 +75,17 @@ Shader "Custom/ShowByCollisionShader"
             // Albedo comes from a texture tinted by color
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
             
-            fixed dstToHitPoint = (_Colliding != 0)? distance(_ColPos, IN.posWorld) : 0;
-            o.Alpha = (_Colliding == 0)? 0 : (dstToHitPoint < _ColAreaRadius)? (_Colliding * c.a) : 0;
+            fixed dstToHitPoint = 0;
+            bool closeToColPos = false; 
+
+            //The loop is aborted when there's no collision or the current point is within reach of a colPoint.
+            for(int i = 0; (_Colliding != 0) && (i < 10) && !closeToColPos; i++) {
+
+                //1st check avoid calculating distance to null positions
+                dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
+                closeToColPos = (dstToHitPoint < _ColAreaRadius);
+            }
+            o.Alpha = closeToColPos? (_Colliding * c.a) : 0;
             
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables

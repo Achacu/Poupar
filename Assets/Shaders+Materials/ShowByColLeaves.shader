@@ -43,9 +43,12 @@ Shader "Custom/ShowByColLeaves" {
         fixed4 _ColPos;
         fixed _ColAreaRadius;
 
+        fixed4 _ColPoints[10];
+
         struct Input {
             float2 uv_MainTex;
             fixed4 color : COLOR; // color.a = AO
+            float3 worldPos;
         };
 
         void surf(Input IN, inout LeafSurfaceOutput o) {
@@ -53,7 +56,23 @@ Shader "Custom/ShowByColLeaves" {
             o.Albedo = c.rgb * IN.color.rgb * IN.color.a;
             o.Translucency = tex2D(_TranslucencyMap, IN.uv_MainTex).rgb;
             o.Gloss = tex2D(_GlossMap, IN.uv_MainTex).a;
-            o.Alpha = c.a * _Colliding;
+
+
+            //fixed dstToHitPoint = (_Colliding != 0)? distance(_ColPos, IN.worldPos) : 0;
+            //o.Alpha = (_Colliding == 0)? 0 : (dstToHitPoint < _ColAreaRadius)? (_Colliding * c.a) : 0;
+            //o.Alpha = c.a * _Colliding;
+
+            fixed dstToHitPoint = 0;
+            bool closeToColPos = false; 
+            //The loop is aborted when there's no collision or the current point is within reach of a colPoint.
+            for(int i = 0; (_Colliding != 0) && (i < 10) && !closeToColPos; i++) {
+                //1st check avoid calculating distance to null positions
+                dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
+                closeToColPos = (dstToHitPoint < _ColAreaRadius);
+            }
+            o.Alpha = closeToColPos? (_Colliding * c.a) : 0;
+
+
             o.Specular = _Shininess;
             o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));
         }
