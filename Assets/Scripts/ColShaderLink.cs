@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class ColShaderLink : MonoBehaviour
 {
-    [SerializeField] private MeshRenderer[] meshes = new MeshRenderer[1];
+    [SerializeField] private List<MeshRenderer> meshes = new List<MeshRenderer>();
+    //[SerializeField] private float minColPointSeparation = 0.5f;
+    //[SerializeField] private List<Vector3> colPoints;
     // Start is called before the first frame update
     void OnValidate()
     {
-        meshes[0] = GetComponent<MeshRenderer>();
+        if(meshes.Count == 0 || meshes[0] == null)
+        {
+            meshes.AddRange(GetComponentsInChildren<MeshRenderer>());
+            if (meshes[0] == null) meshes.RemoveAt(0);
+        }
     }
     public void Awake()
     {
@@ -22,18 +28,22 @@ public class ColShaderLink : MonoBehaviour
     void Update()
     {
         if (Time.time - colExitTime < fadeOutTime)
-            for(int i = 0; i < meshes.Length; i++) 
+            for(int i = 0; i < meshes.Count; i++) 
                 meshes[i].material.SetFloat("_Colliding", 1-(Time.time - colExitTime) / fadeOutTime);
     }
     void OnCollisionEnter(Collision collision)
     {
+        colExitTime = Time.time - fadeOutTime; //stops fade out
         print("collided with: " +collision.gameObject.name);
-        for (int i = 0; i < meshes.Length; i++)
+        for (int i = 0; i < meshes.Count; i++)
         {
             meshes[i].material.SetFloat("_Colliding", 1);
             meshes[i].material.SetVector("_ColPos", collision.GetContact(0).point);
         }
-
+    }
+    public void OnCollisionStay(Collision collision)
+    {
+          
     }
     void OnCollisionExit(Collision collision)
     {

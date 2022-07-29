@@ -6,7 +6,9 @@ Shader "Custom/ShowByCollisionShader"
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
         _BumpMap("Normalmap", 2D) = "bump" {}
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
-        _Metallic ("Metallic", Range(0,1)) = 0.0        
+        [Gamma] _Metallic("Metallic", Range(0.0, 1.0)) = 0.0
+        _MetallicGlossMap("Metallic", 2D) = "white" {}
+
         _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
         _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
         _Colliding ("Colliding", Range(0,1)) = 0
@@ -35,10 +37,12 @@ Shader "Custom/ShowByCollisionShader"
 
         sampler2D _MainTex;
         sampler2D _BumpMap;
+        sampler2D _MetallicGlossMap;
 
         struct Input
         {
             float2 uv_MainTex;
+            float2 uv_MetallicGlossMap;
             float3 posWorld;
         };
 
@@ -74,7 +78,7 @@ Shader "Custom/ShowByCollisionShader"
             
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables
-            o.Metallic = _Metallic;
+            o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap) * _Metallic;
             o.Smoothness = _Glossiness;
             o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));
             //o.Alpha = IN.color.a;
