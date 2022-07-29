@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b5b42d6550f144847b2763a1ceb8367a
+guid: 8f173bb974f5be04fa2774dc51fecc77
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Tree_0Mat
-    second: {fileID: 2100000, guid: ad2397698831aee46a5a3eeba8432bca, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Tree_1Mat
-    second: {fileID: 2100000, guid: 4e065583cb97a4a44836a6bdb69ae420, type: 2}
+      name: PropsPequenos
+    second: {fileID: 2100000, guid: 5b08ac21d46622a4a9ad23f53ae839cf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -45,7 +40,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.7
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -98,7 +93,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.0069999998
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
