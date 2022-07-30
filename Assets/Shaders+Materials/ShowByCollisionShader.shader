@@ -17,7 +17,7 @@ Shader "Custom/ShowByCollisionShader"
     }
     SubShader
     {
-	Tags { "Queue"="Transparent" "Rendering"="Transparent" "IgnoreProjector" = "True"}
+	Tags { "Queue"="Transparent+1" "Rendering"="Transparent" "IgnoreProjector" = "True"}
 
        Pass {
             ZWrite On
