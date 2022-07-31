@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 914a07174b67c704791b5c0b55fb65ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   orientation: {fileID: 6362894679788234937}
   playerInput: {fileID: 1111880242095402475}
   maxSpeedChange: 1

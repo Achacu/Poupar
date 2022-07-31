@@ -313,12 +313,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6158891587810635954, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7722268604725077336, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_Name
       value: Player+Cam
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+--- !u!1 &277399754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5277244241589315840, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+  m_PrefabInstance: {fileID: 93432308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &277399764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277399754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSounds:
+  - sender: {fileID: 0}
+    sound:
+      Guid:
+        Data1: -390975638
+        Data2: 1322930784
+        Data3: -167255375
+        Data4: 101023842
+      Path: "event:/M\xFAsica/Men\xFA"
+  - sender: {fileID: 331000438}
+    sound:
+      Guid:
+        Data1: -1196456281
+        Data2: 1222617348
+        Data3: -641874250
+        Data4: -774242740
+      Path: "event:/M\xFAsica/M\xFAsica exterior"
 --- !u!1 &331000436
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +368,7 @@ GameObject:
   - component: {fileID: 331000437}
   - component: {fileID: 331000438}
   - component: {fileID: 331000439}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WhenHasKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,14 +415,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sender: {fileID: 331000438}
-  sound:
-    Guid:
-      Data1: -1882232566
-      Data2: 1189310402
-      Data3: -1318458195
-      Data4: -1972187106
-    Path: event:/Acciones/Abrir puerta
+  eventSounds:
+  - sender: {fileID: 331000438}
+    sound:
+      Guid:
+        Data1: -1882232566
+        Data2: 1189310402
+        Data3: -1318458195
+        Data4: -1972187106
+      Path: event:/Acciones/Abrir puerta
 --- !u!1 &435818788
 GameObject:
   m_ObjectHideFlags: 0
@@ -6177,14 +6216,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sender: {fileID: 1129176981}
-  sound:
-    Guid:
-      Data1: 1603497703
-      Data2: 1304045260
-      Data3: -1514135640
-      Data4: -1682332660
-    Path: event:/Acciones/Puerta bloqueada
+  eventSounds:
+  - sender: {fileID: 1129176981}
+    sound:
+      Guid:
+        Data1: 1603497703
+        Data2: 1304045260
+        Data3: -1514135640
+        Data4: -1682332660
+      Path: event:/Acciones/Puerta bloqueada
 --- !u!114 &1129176989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6554,6 +6594,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 533337040791460766, guid: 4863d591acc36e3438fdf97594a7fbae, type: 3}
   m_PrefabInstance: {fileID: 687688772}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1466512114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6158891587810635959, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+  m_PrefabInstance: {fileID: 93432308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1466512118 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6158891587810635953, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+  m_PrefabInstance: {fileID: 93432308}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466512114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 914a07174b67c704791b5c0b55fb65ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1466512123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466512114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f702be66e9e3b479152c5696f498d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  move: {fileID: 1466512118}
+  footstepsRef:
+    Guid:
+      Data1: -1149044316
+      Data2: 1084606696
+      Data3: 712508831
+      Data4: -2024965091
+    Path: event:/Pisadas/Madera
 --- !u!1001 &1487537000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12710,14 +12786,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sender: {fileID: 5400263968027850271}
-  sound:
-    Guid:
-      Data1: -2138571211
-      Data2: 1134173512
-      Data3: 443814042
-      Data4: 319477925
-    Path: event:/Acciones/Ropa
+  eventSounds:
+  - sender: {fileID: 5400263968027850271}
+    sound:
+      Guid:
+        Data1: 146864506
+        Data2: 1338176062
+        Data3: -1237688929
+        Data4: 293430299
+      Path: event:/Objetos 3D/Reloj
 --- !u!1 &5402118295248444706
 GameObject:
   m_ObjectHideFlags: 0

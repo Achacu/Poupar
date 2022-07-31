@@ -12,6 +12,8 @@ public class CharMove : MonoBehaviour
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private float maxSpeedChange = 1f;
     // Start is called before the first frame update
+
+    public event Action<bool> OnMoveChange = delegate { };
     void Start()
     {
         //controller = GetComponent<CharacterController>();
@@ -43,9 +45,13 @@ public class CharMove : MonoBehaviour
         playerInput.Controls.General.Move.performed -= UpdateInput;
     }
 
+    Vector2 lastInput = Vector2.zero;
     private void UpdateInput(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         input = obj.ReadValue<Vector2>();
+        if (input != lastInput)
+            OnMoveChange(input != Vector2.zero);
+        lastInput = input;
     }
     //public void OnControllerColliderHit(ControllerColliderHit hit)
     //{
