@@ -8,13 +8,14 @@ public class Interactable : MonoBehaviour
     void OnValidate()
     {
         if (!eventSender) eventSender = GetComponent<EventSender>();
+        gameObject.layer = LayerMask.NameToLayer("Interactable");
     }
     public void Awake()
     {
         OnValidate();
     }
 
-    [SerializeField] private EventSender eventSender;
+    public EventSender eventSender;
     public void Interact()
     {
         eventSender.TriggerEvent(true);

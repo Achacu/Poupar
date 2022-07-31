@@ -275,7 +275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 661151672749147110, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.176
+      value: 9.23
       objectReference: {fileID: 0}
     - target: {fileID: 661151672749147110, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -283,7 +283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 661151672749147110, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.894
+      value: -5.25
       objectReference: {fileID: 0}
     - target: {fileID: 661151672749147110, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -319,6 +319,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+--- !u!1 &331000436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331000437}
+  - component: {fileID: 331000438}
+  - component: {fileID: 331000439}
+  m_Layer: 6
+  m_Name: WhenHasKey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &331000437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331000436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1129176987}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331000438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331000436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde74e41ddb97104797bd4dd87a7bd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  singleUse: 1
+--- !u!114 &331000439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331000436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sender: {fileID: 331000438}
+  sound:
+    Guid:
+      Data1: -1882232566
+      Data2: 1189310402
+      Data3: -1318458195
+      Data4: -1972187106
+    Path: event:/Acciones/Abrir puerta
 --- !u!1 &435818788
 GameObject:
   m_ObjectHideFlags: 0
@@ -6080,7 +6146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde74e41ddb97104797bd4dd87a7bd83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  singleUse: 1
+  singleUse: 0
 --- !u!114 &1129176982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6094,6 +6160,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventSender: {fileID: 1129176981}
+--- !u!4 &1129176987 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5998061281579469312, guid: 213b13391db4e6e43a0b3b0a99c31586, type: 3}
+  m_PrefabInstance: {fileID: 1628646533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129176988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129176975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sender: {fileID: 1129176981}
+  sound:
+    Guid:
+      Data1: 1603497703
+      Data2: 1304045260
+      Data3: -1514135640
+      Data4: -1682332660
+    Path: event:/Acciones/Puerta bloqueada
+--- !u!114 &1129176989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129176975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617af9516f985c241b0468469bd0e05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interaction: {fileID: 1129176982}
+  triggerSender: {fileID: 5400263968027850271}
+  newSender: {fileID: 331000438}
 --- !u!1001 &1148975745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6182,6 +6288,13 @@ MonoBehaviour:
   - {fileID: 491870347}
   minColPointSqrdSeparation: 0.5
   colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   fadeOutTime: 1
 --- !u!65 &1175223135
 BoxCollider:
@@ -6631,7 +6744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5998061281579469312, guid: 213b13391db4e6e43a0b3b0a99c31586, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.750595
+      value: 8.3
       objectReference: {fileID: 0}
     - target: {fileID: 5998061281579469312, guid: 213b13391db4e6e43a0b3b0a99c31586, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6639,7 +6752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5998061281579469312, guid: 213b13391db4e6e43a0b3b0a99c31586, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.15609
+      value: -8.16
       objectReference: {fileID: 0}
     - target: {fileID: 5998061281579469312, guid: 213b13391db4e6e43a0b3b0a99c31586, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12016,7 +12129,10 @@ GameObject:
   - component: {fileID: 510407287658000189}
   - component: {fileID: 5400263968027850269}
   - component: {fileID: 5400263968027850268}
-  m_Layer: 0
+  - component: {fileID: 5400263968027850270}
+  - component: {fileID: 5400263968027850271}
+  - component: {fileID: 5400263968027850272}
+  m_Layer: 6
   m_Name: Reloj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12535,6 +12651,13 @@ MonoBehaviour:
   - {fileID: 4554823928957450760}
   minColPointSqrdSeparation: 0.5
   colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
   fadeOutTime: 1
 --- !u!65 &5400263968027850269
 BoxCollider:
@@ -12549,6 +12672,52 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0421307, y: 1.9523455, z: 0.5066668}
   m_Center: {x: -0.08518921, y: 0.0739737, z: 0.0040560756}
+--- !u!114 &5400263968027850270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918772201277280057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04dcaaaa980fc6d448f62af54bf83638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSender: {fileID: 5400263968027850271}
+--- !u!114 &5400263968027850271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918772201277280057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde74e41ddb97104797bd4dd87a7bd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  singleUse: 1
+--- !u!114 &5400263968027850272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918772201277280057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sender: {fileID: 5400263968027850271}
+  sound:
+    Guid:
+      Data1: -2138571211
+      Data2: 1134173512
+      Data3: 443814042
+      Data4: 319477925
+    Path: event:/Acciones/Ropa
 --- !u!1 &5402118295248444706
 GameObject:
   m_ObjectHideFlags: 0
@@ -12835,6 +13004,13 @@ MonoBehaviour:
   - {fileID: 4385484539885267019}
   minColPointSqrdSeparation: 0.5
   colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
   fadeOutTime: 1
 --- !u!65 &7689897447962365323
 BoxCollider:
@@ -12872,7 +13048,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8870728061233485441}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.515602, y: -0.00000011920929, z: 1.7181501}
+  m_LocalPosition: {x: 12.39, y: -0.00000011920929, z: -5.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13085,6 +13261,13 @@ MonoBehaviour:
   - {fileID: 8928304551185462421}
   minColPointSqrdSeparation: 0.5
   colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
   fadeOutTime: 1
 --- !u!1 &8980187895367761568
 GameObject:
@@ -13162,6 +13345,13 @@ MonoBehaviour:
   - {fileID: 8997981116783199443}
   minColPointSqrdSeparation: 0.5
   colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
   fadeOutTime: 1
 --- !u!65 &8997981116783199445
 BoxCollider:

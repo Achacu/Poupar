@@ -8,9 +8,10 @@ public class ColShaderLink : MonoBehaviour
     [SerializeField] private float minColPointSqrdSeparation = 0.5f;
     private Vector4[] colPoints = new Vector4[10];
     [SerializeField] private int colPosIndex = 0;
+    [SerializeField] private FMODUnity.EventReference colSound; 
     // Start is called before the first frame update
     void OnValidate()
-    {
+    {        
         if(meshes.Count == 0 || meshes[0] == null)
         {
             meshes.AddRange(GetComponentsInChildren<MeshRenderer>());
@@ -34,6 +35,8 @@ public class ColShaderLink : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
+        FMODUnity.RuntimeManager.PlayOneShot(colSound, collision.GetContact(0).point);
+        
         colPosIndex = 0;
         for(int i=0; i < colPoints.Length;i++) colPoints[i] = Vector4.zero; //resets colPos for this obj
 
