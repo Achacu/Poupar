@@ -71,7 +71,7 @@ public class ColShaderLink : MonoBehaviour
     }
     void OnCollisionExit(Collision collision)
     {
-        print("stopped colliding with: " + collision.gameObject.name);
+        //print("stopped colliding with: " + collision.gameObject.name);
         colExitTime = Time.time;
         //mesh.material.SetFloat("_Colliding", 0);
     }

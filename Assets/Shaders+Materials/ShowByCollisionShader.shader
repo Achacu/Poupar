@@ -12,12 +12,13 @@ Shader "Custom/ShowByCollisionShader"
         _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
         _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
         _Colliding ("Colliding", Range(0,1)) = 0
+        _Sounding ("Sounding", Range(0,1)) = 0
         //_ColPos ("Collision Position", Vector) = (0,0,0,0)
         _ColAreaRadius ("Collision Area Radius", Range(0,5)) = 1        
     }
     SubShader
     {
-	Tags { "Queue"="Transparent+1" "Rendering"="Transparent" "IgnoreProjector" = "True"}
+	Tags { "Queue"="Transparent+1"   "Rendering"="Transparent" "IgnoreProjector" = "True"}
 
        Pass {
             ZWrite On
@@ -54,6 +55,7 @@ Shader "Custom/ShowByCollisionShader"
         fixed _UpperBlindTh;
 
         fixed _Colliding;
+        fixed _Sounding;
         fixed _ColAreaRadius;
 
         fixed4 _ColPoints[10];
@@ -85,7 +87,7 @@ Shader "Custom/ShowByCollisionShader"
                 dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
                 closeToColPos = (dstToHitPoint < _ColAreaRadius);
             }
-            o.Alpha = closeToColPos? (_Colliding * c.a) : 0;
+            o.Alpha = closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a);
             
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables

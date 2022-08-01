@@ -38,6 +38,7 @@ public class SoundPlayer : MonoBehaviour
         PlaySound(null);   
     }
     private FMOD.Studio.EventInstance activeSoundInstance;
+    public event Action<FMOD.Studio.EventInstance> OnPlaySound = delegate { };
     private void PlaySound(EventSender sender)
     {
         for(int i = 0; i < eventSounds.Length; i++)
@@ -50,12 +51,24 @@ public class SoundPlayer : MonoBehaviour
                 activeSoundInstance = FMODUnity.RuntimeManager.CreateInstance(eventSounds[i].sound);
                 FMODUnity.RuntimeManager.AttachInstanceToGameObject(activeSoundInstance, transform);
                 activeSoundInstance.start();
+
+                OnPlaySound.Invoke(activeSoundInstance);
+
                     //FMODUnity.RuntimeManager.PlayOneShot(eventSounds[i].sound, transform.position);
                 break;
             }
         }
-    }
+    }    
 
+    private float GetMax(float[] array)
+    {
+        float max = 0f;
+        for(int i = 0; i < array.Length; i++)
+        {
+            if (array[i] > max) max = array[i];
+        }
+        return max;
+    }
 
     // Update is called once per frame
     void Update()

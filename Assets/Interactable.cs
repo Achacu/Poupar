@@ -8,7 +8,7 @@ public class Interactable : MonoBehaviour
     void OnValidate()
     {
         if (!eventSender) eventSender = GetComponent<EventSender>();
-        print(gameObject.layer + " " + LayerMask.NameToLayer("Interactable"));
+        //print(gameObject.layer + " " + LayerMask.NameToLayer("Interactable"));
         if(gameObject.layer != LayerMask.NameToLayer("Interactable")) gameObject.layer = LayerMask.NameToLayer("Interactable");
     }
     public void Awake()
