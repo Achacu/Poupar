@@ -12358,12 +12358,12 @@ GameObject:
   - component: {fileID: 3892230412933015890}
   - component: {fileID: 5400263968027850267}
   - component: {fileID: 510407287658000189}
-  - component: {fileID: 5400263968027850269}
   - component: {fileID: 5400263968027850270}
   - component: {fileID: 5400263968027850271}
   - component: {fileID: 5400263968027850272}
   - component: {fileID: 5400263968027850273}
   - component: {fileID: 5400263968027850274}
+  - component: {fileID: 5400263968027850275}
   m_Layer: 6
   m_Name: Reloj
   m_TagString: Untagged
@@ -12520,7 +12520,7 @@ GameObject:
   - component: {fileID: 3110010970181892994}
   - component: {fileID: 8928304551185462421}
   - component: {fileID: 8928304551185462423}
-  - component: {fileID: 8928304551185462422}
+  - component: {fileID: 8928304551185462424}
   m_Layer: 0
   m_Name: Plane.001
   m_TagString: Untagged
@@ -12603,8 +12603,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918772201277280057}
-  m_LocalRotation: {x: 0.6475416, y: 0.28406012, z: 0.64754134, w: 0.2840597}
-  m_LocalPosition: {x: -0.020892812, y: 1.1491503, z: -2.0621517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.118, z: -2.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12870,19 +12870,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918772201277280057}
   m_Mesh: {fileID: 5578467693587972603, guid: 3f227d28a7b2ef449b3d79b62b037ffb, type: 3}
---- !u!65 &5400263968027850269
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918772201277280057}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.0421307, y: 1.9523455, z: 0.5066668}
-  m_Center: {x: -0.08518921, y: 0.0739737, z: 0.0040560756}
 --- !u!114 &5400263968027850270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12974,6 +12961,19 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   fadeOutTime: 1
+--- !u!65 &5400263968027850275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918772201277280057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.50666636, y: 2.324698, z: 0.7572677}
+  m_Center: {x: 0.004058093, y: 0.012313604, z: -0.0054279566}
 --- !u!1 &5402118295248444706
 GameObject:
   m_ObjectHideFlags: 0
@@ -13288,8 +13288,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3507745570685143239}
-  m_LocalRotation: {x: 0, y: -0.05211182, z: -0, w: 0.99864125}
-  m_LocalPosition: {x: -0.15534616, y: 2.061585, z: -0.5395163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13422,8 +13422,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3867870498612447067}
-  m_LocalRotation: {x: -0, y: -0, z: -0.000000014901163, w: 1}
-  m_LocalPosition: {x: 0.34975687, y: -0.33127537, z: -0.22853476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.234, y: 0.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13488,19 +13488,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8928304551185462422
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3507745570685143239}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.218928, y: 2.741978, z: 2.139388}
-  m_Center: {x: 0.15267451, y: -0.690596, z: 0.5298467}
 --- !u!114 &8928304551185462423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13525,6 +13512,19 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   fadeOutTime: 1
+--- !u!65 &8928304551185462424
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3507745570685143239}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0099883, y: 2.7419777, z: 2.0605905}
+  m_Center: {x: -0.05916524, y: 1.3709888, z: 0.008065462}
 --- !u!1 &8980187895367761568
 GameObject:
   m_ObjectHideFlags: 0
