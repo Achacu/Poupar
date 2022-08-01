@@ -3,7 +3,12 @@ guid: 89ad346531019914b90886bbcf84ca61
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tocon vallas
+    second: {fileID: 2100000, guid: d0a35035582ee53429235a1ea7ba2c8c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

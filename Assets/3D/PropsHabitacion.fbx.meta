@@ -3,7 +3,72 @@ guid: 579e6e88fd60ab045b826db204b58533
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Almofada_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caixon_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cama_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Comoda_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Foto_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lampara_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesita_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalla_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Portavelas_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PropsMadera
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Somier_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vela_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pomo_mtrl
+    second: {fileID: 2100000, guid: 415bf79212be59b44a5a6074ed70f987, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
