@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 832fc56460617e34eb9ff86f01eb2f1e
+guid: 9ad6dd989807d064881104269bdd0aa9
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Casas
-    second: {fileID: 2100000, guid: c77157dce0f43e044b676f3536629a28, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Tejas
-    second: {fileID: 2100000, guid: fdc0ab993119be14fab22eada3b21dba, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -98,7 +88,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
