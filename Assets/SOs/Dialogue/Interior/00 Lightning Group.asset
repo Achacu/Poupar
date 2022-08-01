@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b230075a5c4900499ccb9687513d8c6, type: 3}
+  m_Name: 00 Lightning Group
+  m_EditorClassIdentifier: 
+  lines:
+  - {fileID: 11400000, guid: 43bf872dfc5f8694fa03136da0c5dba7, type: 2}
+  - {fileID: 11400000, guid: 52c0ea598b472d34c8fab333b35bac2b, type: 2}

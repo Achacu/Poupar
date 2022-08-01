@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b230075a5c4900499ccb9687513d8c6, type: 3}
+  m_Name: 04 Bottle Group
+  m_EditorClassIdentifier: 
+  lines:
+  - {fileID: 11400000, guid: 72156b80aae8b7243ba60414509bab4d, type: 2}
+  - {fileID: 11400000, guid: d8b3c32a66035004fba93d9d74fa98cc, type: 2}

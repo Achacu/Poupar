@@ -6,9 +6,10 @@ using System;
 
 public class DialogueSystem : MonoBehaviour
 {
+    [SerializeField, ContextMenuItem("TestLineGroup","TestLineGroup")] private int testIndex = 0;
+    private void TestLineGroup() => ShowLineGroup(dialogueGroups[testIndex].group);
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private DialogueGroup[] dialogueGroups;
-
     [System.Serializable]
     public class DialogueGroup
     {
@@ -29,7 +30,7 @@ public class DialogueSystem : MonoBehaviour
         //ShowLineGroup(currentGroup);
         foreach(DialogueGroup dGroup in dialogueGroups)
         {
-            dGroup.trigger.OnActivate += ProcessDialogueEvent;
+            if(dGroup.trigger) dGroup.trigger.OnActivate += ProcessDialogueEvent;
         }
     }
     void OnDisable()
@@ -37,7 +38,7 @@ public class DialogueSystem : MonoBehaviour
         //ShowLineGroup(currentGroup);
         foreach (DialogueGroup dGroup in dialogueGroups)
         {
-            dGroup.trigger.OnActivate -= ProcessDialogueEvent;
+            if (dGroup.trigger) dGroup.trigger.OnActivate -= ProcessDialogueEvent;
         }
     }
 
@@ -45,7 +46,7 @@ public class DialogueSystem : MonoBehaviour
     {
         for(int i = 0; i < dialogueGroups.Length; i++)
         {
-            if(dialogueGroups[i].trigger.Equals(sender))
+            if(dialogueGroups[i].trigger == sender)
             {
                 ShowLineGroup(dialogueGroups[i].group);
             }
