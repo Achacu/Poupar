@@ -8,7 +8,7 @@ public class PlayerCam : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
     [SerializeField] private float sensX;
     [SerializeField] private float sensY;
@@ -20,10 +20,14 @@ public class PlayerCam : MonoBehaviour
     public void OnEnable()
     {
         playerInput.Controls.General.TurnCam.performed += UpdateTurnCam;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
     public void OnDisable()
     {
         playerInput.Controls.General.TurnCam.performed -= UpdateTurnCam;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
 
     private void UpdateTurnCam(UnityEngine.InputSystem.InputAction.CallbackContext obj)

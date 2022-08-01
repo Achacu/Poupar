@@ -18,8 +18,6 @@ public class CharMove : MonoBehaviour
     {
         //controller = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody>();
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
    
     Vector2 input = Vector2.zero; 

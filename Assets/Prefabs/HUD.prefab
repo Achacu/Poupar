@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13e5d1c9fb1484647be53ff8685ca9ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  testIndex: 0
   dialogueText: {fileID: 7915128794299995950}
   dialogueGroups: []
 --- !u!1 &7915128794299995948
@@ -198,7 +199,7 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a1ea1f2316c526d4fad56e9381d0a1b9, type: 2}
-  m_sharedMaterial: {fileID: 3823841058813902577, guid: a1ea1f2316c526d4fad56e9381d0a1b9, type: 2}
+  m_sharedMaterial: {fileID: -7098512053664374214, guid: a1ea1f2316c526d4fad56e9381d0a1b9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -433,9 +434,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.3
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
