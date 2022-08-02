@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 132321ba6e8d66d46ac7d5ebfd34cc72
+guid: 12436fce5f936b94d89ab760575d5c43
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Lareira
-    second: {fileID: 2100000, guid: 9a30365e3e8353d4a9e8a08c9eb128e3, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
