@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
+    [SerializeField] private bool disableOnInteract = false;
     // Start is called before the first frame update
     void OnValidate()
     {
@@ -20,5 +21,6 @@ public class Interactable : MonoBehaviour
     public void Interact()
     {
         eventSender.TriggerEvent(true);
+        if (disableOnInteract) gameObject.SetActive(false);
     }
 }
