@@ -120,5 +120,6 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n madera"
+    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+  sender: {fileID: 0}
   fadeOutTime: 3

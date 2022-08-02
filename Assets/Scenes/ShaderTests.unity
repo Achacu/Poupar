@@ -3362,7 +3362,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n madera"
+    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
   sender: {fileID: 0}
   fadeOutTime: 1
 --- !u!65 &5400263968027850275
@@ -3670,7 +3670,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n madera"
+    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
   sender: {fileID: 0}
   fadeOutTime: 1
 --- !u!65 &7689897447962365323
@@ -4048,7 +4048,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n madera"
+    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
   sender: {fileID: 0}
   fadeOutTime: 1
 --- !u!65 &8928304551185462424
@@ -4146,7 +4146,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n madera"
+    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
   sender: {fileID: 0}
   fadeOutTime: 1
 --- !u!65 &8997981116783199445

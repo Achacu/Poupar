@@ -169,11 +169,9 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Acciones
-  - "Colisio\u2560\xFCns"
+  - FX
   - "Mu\u2560\xFCsica"
-  - Objetos 3D
-  - Pisadas
+  - UI
   BanksToLoad:
   - Master
   - Master.strings
