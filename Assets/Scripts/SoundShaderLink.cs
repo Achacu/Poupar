@@ -20,7 +20,11 @@ public class SoundShaderLink : MonoBehaviour
     public void Awake()
     {
         OnValidate();
-        for (int i = 0; i < meshes.Count; i++) meshes[i].material.SetFloat("_Sounding", 0);
+        for (int i = 0; i < meshes.Count; i++)
+        {
+            meshes[i].material.SetFloat("_Sounding", 0);
+            meshes[i].material.renderQueue = 3000;
+        }
     }
 
 

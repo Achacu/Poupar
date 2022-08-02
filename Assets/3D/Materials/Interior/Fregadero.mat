@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Props Habitacion
+  m_Name: Fregadero
   m_Shader: {fileID: 4800000, guid: 5dc01feb0f07c9e4a808de100fe4e799, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
@@ -42,11 +42,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9e5a7608e6b1d604b88013e39ee78f3a, type: 3}
+        m_Texture: {fileID: 2800000, guid: a9aee7737b1553d4f9f5aaa2f5fbbab3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: aa66ca315c6268f40a4692316fa07aad, type: 3}
+        m_Texture: {fileID: 2800000, guid: 633173d2bd10af94a9ae7c0fafcdbdd8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:

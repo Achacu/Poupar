@@ -875,15 +875,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.75391674
+      value: -2.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5261151
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.3849695
+      value: -0.67
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
       propertyPath: m_LocalRotation.w
@@ -913,6 +913,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6924268562707040624, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.846
+      objectReference: {fileID: 0}
+    - target: {fileID: -6924268562707040624, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6924268562707040624, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.829
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
       propertyPath: m_Name
       value: Fregadero
@@ -923,6 +935,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+--- !u!23 &545961166 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6138462296737685236, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+  m_PrefabInstance: {fileID: 545961165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &545961167 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2695497723076915343, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+  m_PrefabInstance: {fileID: 545961165}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &592099628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,7 +1410,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900649216}
   m_LocalRotation: {x: -0, y: -0.31673875, z: -0, w: 0.94851285}
-  m_LocalPosition: {x: 2.003, y: 0.51, z: -2.994}
+  m_LocalPosition: {x: 1.722, y: 0.51, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1771,11 +1793,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
   m_PrefabInstance: {fileID: 545961165}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1098274862 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
-  m_PrefabInstance: {fileID: 545961165}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1098274864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1789,8 +1806,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meshes:
-  - {fileID: 1098274862}
-  minColPointSqrdSeparation: 0.4
+  - {fileID: 545961167}
+  - {fileID: 545961166}
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -1813,7 +1831,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.800215, y: 0.99999994, z: 0.99524784}
-  m_Center: {x: -0.6501074, y: -0.000000029802322, z: 0.0023760647}
+  m_Center: {x: 2.55, y: 0.5, z: 2}
 --- !u!65 &1098274866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1826,7 +1844,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.9912801, y: 0.99999994, z: 0.69052213}
-  m_Center: {x: 1.25436, y: -0.000000029802322, z: -0.84249425}
+  m_Center: {x: 4.45, y: 0.5, z: 1.15}
 --- !u!1 &1131199006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,7 +2285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 1389849851}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -2863,7 +2881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 1939055676}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -3197,7 +3215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 2076894651}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -3437,7 +3455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 252785204511681994}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -4982,7 +5000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 3800321164120809180}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -5117,7 +5135,7 @@ MonoBehaviour:
   meshes:
   - {fileID: 2739584417209641361}
   - {fileID: 6490125390903678111}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -5899,7 +5917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 2041362029512571540}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -6045,7 +6063,7 @@ MonoBehaviour:
   - {fileID: 1735049810605735471}
   - {fileID: 2320631571479423770}
   - {fileID: 8574659255172480946}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -6392,7 +6410,7 @@ MonoBehaviour:
   - {fileID: 5567516870211170188}
   - {fileID: 5593265559481149859}
   - {fileID: 3687487809749519300}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -6614,7 +6632,7 @@ MonoBehaviour:
   meshes:
   - {fileID: 6659415370342877985}
   - {fileID: 2217805949288309162}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -6676,7 +6694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 4484293927615425067}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -6784,7 +6802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 7196248638461990337}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -6870,7 +6888,7 @@ MonoBehaviour:
   meshes:
   - {fileID: 5593265559481149859}
   - {fileID: 3687487809749519300}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7021,7 +7039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 647818763903523448}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7181,7 +7199,7 @@ MonoBehaviour:
   meshes:
   - {fileID: 4592438317530234783}
   - {fileID: 8109806066307912131}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7345,7 +7363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 7765466673518435342}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7424,7 +7442,7 @@ MonoBehaviour:
   - {fileID: 5827892432673385635}
   - {fileID: 874541027847010834}
   - {fileID: 1975179431116625193}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7674,7 +7692,7 @@ MonoBehaviour:
   - {fileID: 108836504}
   - {fileID: 1515642541}
   - {fileID: 365473791}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7693,7 +7711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8095660748688735895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.026, y: 0.50999993, z: -2.863}
+  m_LocalPosition: {x: 1.752, y: 0.50999993, z: -2.821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7820,7 +7838,7 @@ MonoBehaviour:
   meshes:
   - {fileID: 7709761436562641531}
   - {fileID: 2548640509021258233}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7878,7 +7896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 6421736996880012609}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -7943,7 +7961,7 @@ MonoBehaviour:
   - {fileID: 7196248638461990337}
   - {fileID: 2076894651}
   - {fileID: 1939055676}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -8123,7 +8141,7 @@ MonoBehaviour:
   meshes:
   - {fileID: 1749699404212794428}
   - {fileID: 5567516870211170188}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -8294,7 +8312,7 @@ MonoBehaviour:
   meshes:
   - {fileID: 572778150299567761}
   - {fileID: 9103373307302193350}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:
@@ -8457,7 +8475,7 @@ MonoBehaviour:
   - {fileID: 5158001899252431400}
   - {fileID: 5962040856343451172}
   - {fileID: 5383900612494869712}
-  minColPointSqrdSeparation: 0.4
+  minColPointSqrdSeparation: 0.2
   colPosIndex: 0
   colSound:
     Guid:

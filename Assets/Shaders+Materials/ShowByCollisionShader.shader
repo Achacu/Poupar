@@ -18,7 +18,7 @@ Shader "Custom/ShowByCollisionShader"
     }
     SubShader
     {
-	Tags { "Queue"="Transparent+1"   "Rendering"="Transparent" "IgnoreProjector" = "True"}
+	Tags { "Queue"="Transparent+2"   "Rendering"="Transparent" "IgnoreProjector" = "True"}
 
        Pass {
             ZWrite On
@@ -91,7 +91,7 @@ Shader "Custom/ShowByCollisionShader"
             
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables
-            o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap) * _Metallic;
+            o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).a * _Metallic;
             o.Smoothness = _Glossiness;
             o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));
             //o.Alpha = IN.color.a;
