@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6362894679334883622}
   - component: {fileID: 1111880242095402475}
   - component: {fileID: 8718759643583567277}
+  - component: {fileID: 4073187229555604746}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -168,6 +169,26 @@ MonoBehaviour:
   camT: {fileID: 0}
   maxInteractRayDst: 2.5
   playerInput: {fileID: 1111880242095402475}
+--- !u!114 &4073187229555604746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362894679334883631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f702be66e9e3b479152c5696f498d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  move: {fileID: 6362894679334883625}
+  footstepsRef:
+    Guid:
+      Data1: -1149044316
+      Data2: 1084606696
+      Data3: 712508831
+      Data4: -2024965091
+    Path: event:/Pisadas/Madera
 --- !u!1 &6362894679788234936
 GameObject:
   m_ObjectHideFlags: 0

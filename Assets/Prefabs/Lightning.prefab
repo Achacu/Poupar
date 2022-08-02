@@ -51,8 +51,8 @@ MonoBehaviour:
   sender: {fileID: 4451833924784463676}
   anim: {fileID: 4451833924784463678}
   soundToLightDelay: 0
-  minCooldown: 10
-  maxCooldown: 30
+  minCooldown: 20
+  maxCooldown: 50
 --- !u!111 &4451833924784463678
 Animation:
   m_ObjectHideFlags: 0
