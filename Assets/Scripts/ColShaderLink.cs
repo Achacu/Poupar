@@ -84,6 +84,7 @@ public class ColShaderLink : MonoBehaviour
     public void OnCollisionStay(Collision collision)
     {
         if (colPosIndex >= colPoints.Length) return;
+        colExitTime = Time.time - fadeOutTime; //stops fade out
 
         bool newPoint = true;
         for(int i=0; i < colPoints.Length; i++)
