@@ -92,7 +92,7 @@ Shader "Custom/ShowByCollisionShader"
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables
             o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).r * _Metallic;
-            o.Smoothness = _Glossiness;
+            o.Smoothness = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).a * _Glossiness;
             o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));
             //o.Alpha = IN.color.a;
         }
