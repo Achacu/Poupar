@@ -6,7 +6,7 @@ public class ColShaderLink : MonoBehaviour
 {
     [SerializeField] private List<MeshRenderer> meshes = new List<MeshRenderer>();
     [SerializeField] private float minColPointSqrdSeparation = 0.5f;
-    private Vector4[] colPoints = new Vector4[10];
+    private Vector4[] colPoints = new Vector4[15];
     [SerializeField] private int colPosIndex = 0;
     [SerializeField] private FMODUnity.EventReference colSound;
     [SerializeField] private EventSender sender;
@@ -31,8 +31,7 @@ public class ColShaderLink : MonoBehaviour
     void Update()
     {
         if (Time.time - colExitTime < fadeOutTime)
-            for(int i = 0; i < meshes.Count; i++) 
-                meshes[i].material.SetFloat("_Colliding", 1-(Time.time - colExitTime) / fadeOutTime);
+            SetShaderParams(1 - (Time.time - colExitTime) / fadeOutTime);
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -48,12 +47,31 @@ public class ColShaderLink : MonoBehaviour
         colPoints[colPosIndex] = collision.GetContact(0).point;
         colPosIndex++;
 
-        for (int i = 0; i < meshes.Count; i++)
+        SetShaderParams(1, colPoints);
+    }
+    private void SetShaderParams(float colliding)
+    {
+        for (int i = 0; i < meshes.Count; i++) for (int j = 0; j < meshes[i].materials.Length; j++)
         {
-            meshes[i].material.SetFloat("_Colliding", 1);
-            meshes[i].material.SetVectorArray("_ColPoints", colPoints);
+            meshes[i].materials[j].SetFloat("_Colliding", colliding);
         }
     }
+    private void SetShaderParams(float colliding, Vector4[] colPoints)
+    {
+        for (int i = 0; i < meshes.Count; i++) for (int j = 0; j < meshes[i].materials.Length; j++)
+        {
+            meshes[i].materials[j].SetFloat("_Colliding", colliding);
+            meshes[i].materials[j].SetVectorArray("_ColPoints", colPoints);
+        }
+    }
+    private void SetShaderParams(Vector4[] colPoints)
+    {
+        for (int i = 0; i < meshes.Count; i++) for (int j = 0; j < meshes[i].materials.Length; j++)
+        {
+            meshes[i].materials[j].SetVectorArray("_ColPoints", colPoints);
+        }
+    }
+
     public void OnCollisionStay(Collision collision)
     {
         if (colPosIndex >= colPoints.Length) return;
@@ -68,7 +86,7 @@ public class ColShaderLink : MonoBehaviour
         {
             colPoints[colPosIndex] = collision.GetContact(0).point;
             colPosIndex++;
-            for (int i = 0; i < meshes.Count; i++) meshes[i].material.SetVectorArray("_ColPoints", colPoints);
+            SetShaderParams(colPoints);
         }
     }
     void OnCollisionExit(Collision collision)

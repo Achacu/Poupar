@@ -3,7 +3,37 @@ guid: f29fd2afc52b8ca4bac0f843a9c237cc
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chan_mtrl
+    second: {fileID: 2100000, guid: 261ddf2f2102ffe4a91c7ffdb6a05d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal_mtrl
+    second: {fileID: 2100000, guid: 9f945856f05d4f441bca5c94965ac5ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parede_mtrl
+    second: {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porta_mtrl
+    second: {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Venta_mtrl
+    second: {fileID: 2100000, guid: eda6d674f0ebc2947a54c8984a0b9c04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pomo_porta_mtrl
+    second: {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

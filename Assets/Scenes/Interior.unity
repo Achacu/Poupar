@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44736516, g: 0.49730194, b: 0.57524586, a: 1}
+  m_IndirectSpecularColor: {r: 0.437002, g: 0.4846905, b: 0.5649527, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -296,6 +296,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7915128793418412531, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915128794268013500, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7915128794268013501, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: dialogueGroups.Array.size
       value: 6
@@ -348,6 +356,34 @@ PrefabInstance:
       propertyPath: dialogueGroups.Array.data[5].trigger
       value: 
       objectReference: {fileID: 9023302338404594722}
+    - target: {fileID: 7915128794299995949, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 828.6201
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915128794299995949, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915128794803161516, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915128794803161516, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7915128794809653360, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -358,7 +394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7915128794809653360, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7915128794809653360, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -616,7 +652,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &286707330
 GameObject:
@@ -835,7 +871,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1259,7 +1295,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4451833924784463672, guid: 25263150c1e910845b5e05a8d9844f4c, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4451833924784463672, guid: 25263150c1e910845b5e05a8d9844f4c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1730,6 +1766,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080127408}
   m_Mesh: {fileID: 7900783224094163436, guid: 8f173bb974f5be04fa2774dc51fecc77, type: 3}
+--- !u!1 &1098274861 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+  m_PrefabInstance: {fileID: 545961165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1098274862 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 3386a02d944fd0c4fb29040d8c365052, type: 3}
+  m_PrefabInstance: {fileID: 545961165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1098274864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098274861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 1098274862}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
+--- !u!65 &1098274865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098274861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.800215, y: 0.99999994, z: 0.99524784}
+  m_Center: {x: -0.6501074, y: -0.000000029802322, z: 0.0023760647}
+--- !u!65 &1098274866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098274861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9912801, y: 0.99999994, z: 0.69052213}
+  m_Center: {x: 1.25436, y: -0.000000029802322, z: -0.84249425}
 --- !u!1 &1131199006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1761,7 +1858,7 @@ Transform:
   - {fileID: 1164490845}
   - {fileID: 716478028}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1164490844
 GameObject:
@@ -1928,7 +2025,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1985,14 +2082,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327777726}
-  m_LocalRotation: {x: 0.74417824, y: 0.06434922, z: -0.48472625, w: 0.45508072}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: -0.6515572, y: 0.16057731, z: -0.14385033, w: -0.7273206}
+  m_LocalPosition: {x: 0, y: 6.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 47.706, y: -99.916, z: -149.117}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 170, y: 0, z: 0}
 --- !u!1001 &1372585419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2002,7 +2099,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 132321ba6e8d66d46ac7d5ebfd34cc72, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 132321ba6e8d66d46ac7d5ebfd34cc72, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2044,6 +2141,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 132321ba6e8d66d46ac7d5ebfd34cc72, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a268644968a40c74e8501a43872fec58, type: 2}
     - target: {fileID: 919132149155446097, guid: 132321ba6e8d66d46ac7d5ebfd34cc72, type: 3}
       propertyPath: m_Name
       value: Lareira
@@ -2066,6 +2167,7 @@ GameObject:
   - component: {fileID: 1389849852}
   - component: {fileID: 1389849851}
   - component: {fileID: 1389849853}
+  - component: {fileID: 1389849854}
   m_Layer: 0
   m_Name: Mesita 2
   m_TagString: Untagged
@@ -2086,7 +2188,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!23 &1389849851
 MeshRenderer:
@@ -2151,6 +2253,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.53916985, y: 0.7159791, z: 0.3991871}
   m_Center: {x: -1.2295258, y: -0.16065109, z: 3.5048428}
+--- !u!114 &1389849854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389849848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 1389849851}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!1 &1467846234
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,7 +2321,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1515642539
 GameObject:
@@ -2279,75 +2406,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515642539}
   m_Mesh: {fileID: 7900783224094163436, guid: 8f173bb974f5be04fa2774dc51fecc77, type: 3}
---- !u!1001 &1700561655
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.3237
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.3237
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.3237
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848579, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4130533243612848583, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
-      propertyPath: m_Name
-      value: Floor
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4e51b3b71c268c84683330a5ea3d2061, type: 3}
 --- !u!1 &1775723103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,7 +2570,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 355326778214472681, guid: 64884c982234a3d428d3884b190d84e1, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 355326778214472681, guid: 64884c982234a3d428d3884b190d84e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2603,8 +2661,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1861395539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 132321ba6e8d66d46ac7d5ebfd34cc72, type: 3}
+  m_PrefabInstance: {fileID: 1372585419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1897526807
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,6 +2763,7 @@ GameObject:
   - component: {fileID: 1939055677}
   - component: {fileID: 1939055676}
   - component: {fileID: 1939055678}
+  - component: {fileID: 1939055679}
   m_Layer: 0
   m_Name: Silla (2)
   m_TagString: Untagged
@@ -2715,12 +2779,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939055674}
   m_LocalRotation: {x: -0, y: 0.99400777, z: -0, w: 0.10930995}
-  m_LocalPosition: {x: -0.22955108, y: -0.019870758, z: 0.039551258}
+  m_LocalPosition: {x: -1.6195511, y: 0.64876264, z: -2.4804487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4660142023269157649}
-  m_RootOrder: 5
+  m_Father: {fileID: 8021349254221684009}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 167.449, z: 0}
 --- !u!23 &1939055676
 MeshRenderer:
@@ -2785,6 +2849,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.56059784, y: 0.9948002, z: 0.53689694}
   m_Center: {x: -0.22435379, y: -0.1327067, z: 0.16875592}
+--- !u!114 &1939055679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939055674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 1939055676}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!1 &1954827779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,7 +2917,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2023380824
 GameObject:
@@ -3008,6 +3097,7 @@ GameObject:
   - component: {fileID: 2076894652}
   - component: {fileID: 2076894651}
   - component: {fileID: 2076894653}
+  - component: {fileID: 2076894654}
   m_Layer: 0
   m_Name: Silla (1)
   m_TagString: Untagged
@@ -3023,12 +3113,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076894649}
   m_LocalRotation: {x: -0, y: 0.88747096, z: -0, w: 0.46086362}
-  m_LocalPosition: {x: 0.11644888, y: -0.019870758, z: -1.0621731}
+  m_LocalPosition: {x: -1.2735511, y: 0.64876264, z: -3.5821733}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4660142023269157649}
-  m_RootOrder: 4
+  m_Father: {fileID: 8021349254221684009}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 125.114, z: 0}
 --- !u!23 &2076894651
 MeshRenderer:
@@ -3093,6 +3183,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5605976, y: 0.9948002, z: 0.5368967}
   m_Center: {x: -0.22435369, y: -0.1327067, z: 0.16875537}
+--- !u!114 &2076894654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076894649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 2076894651}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!1 &2093592635
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,14 +3389,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7263042351470575911}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.0720696, y: 0, z: 0.16691297}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0036754608, y: -0.42677286, z: -0.26622248}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1151679535082308658}
-  m_Father: {fileID: 3397037804617740517}
-  m_RootOrder: 3
+  m_Father: {fileID: 6516811534771352786}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &243095347071578030
 Transform:
@@ -3303,6 +3418,49 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 132321ba6e8d66d46ac7d5ebfd34cc72, type: 3}
   m_PrefabInstance: {fileID: 1372585419}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &252785204511681994 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 132321ba6e8d66d46ac7d5ebfd34cc72, type: 3}
+  m_PrefabInstance: {fileID: 1372585419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &252785204511681996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861395539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 252785204511681994}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
+--- !u!65 &252785204511681997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861395539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5059432, y: 0.32336533, z: 2.0175166}
+  m_Center: {x: -0.2574044, y: -0.33831728, z: -0.0011044145}
 --- !u!33 &284518194724672847
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3327,6 +3485,8 @@ GameObject:
   - component: {fileID: 6192697233977599756}
   - component: {fileID: 6192697233977599758}
   - component: {fileID: 6192697233977599757}
+  - component: {fileID: 6192697233977599759}
+  - component: {fileID: 6192697233977599760}
   m_Layer: 6
   m_Name: Reloj
   m_TagString: Untagged
@@ -3361,11 +3521,9 @@ Transform:
   m_LocalPosition: {x: -2.63, y: -0.00088489056, z: -0.6239562}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3139822991351183967}
-  - {fileID: 3340904651151054712}
+  m_Children: []
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &572778150299567761
 MeshRenderer:
@@ -3387,8 +3545,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3852683729480139704, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3456,7 +3614,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3832,8 +3990,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3852683729480139704, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4011,7 +4169,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4044,6 +4202,8 @@ GameObject:
   - component: {fileID: 1953920870587242821}
   - component: {fileID: 7557718327196217272}
   - component: {fileID: 5076242874307145047}
+  - component: {fileID: 7557718327196217273}
+  - component: {fileID: 7557718327196217274}
   m_Layer: 0
   m_Name: Chan
   m_TagString: Untagged
@@ -4402,6 +4562,7 @@ GameObject:
   - component: {fileID: 9023302338404594724}
   - component: {fileID: 9023302338404594726}
   - component: {fileID: 9023302338404594725}
+  - component: {fileID: 9023302338404594727}
   m_Layer: 6
   m_Name: Porta_01
   m_TagString: Untagged
@@ -4448,14 +4609,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405797872171589163}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -5.888, y: 1.1491503, z: -2.877}
+  m_LocalPosition: {x: -5.47, y: 1.203, z: -2.877}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7291662614058311433}
   - {fileID: 2599880555355984697}
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &3012578283446193963
 GameObject:
@@ -4510,14 +4671,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6211948086272409204}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 3.1, y: 2.129, z: 0}
+  m_LocalRotation: {x: 0.50542855, y: -0.49451193, z: 0.49451196, w: 0.50542843}
+  m_LocalPosition: {x: 2.4976315, y: -1.6584902, z: 1.5050743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 543450652633380878}
+  m_Father: {fileID: 5867005439057755036}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 88.749}
 --- !u!33 &3253067042047037391
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4554,8 +4715,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875285268722251484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.475, y: -0.022, z: -0.363}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_LocalPosition: {x: 0.059, y: -0.066, z: -0.009}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6053315509294904654}
@@ -4568,13 +4729,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409922439410586779}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -4.804, y: -0.81009, z: -2.630141}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 3.8563485, y: -2.7449992, z: -2.723}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 543450652633380878}
-  m_RootOrder: 1
+  m_Father: {fileID: 6516811534771352786}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3397037804617740517
 Transform:
@@ -4590,8 +4751,6 @@ Transform:
   m_Children:
   - {fileID: 9023302338404594719}
   - {fileID: 6955588979830462199}
-  - {fileID: 5344172380565563744}
-  - {fileID: 123991282023710304}
   m_Father: {fileID: 8069626508347629737}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4603,12 +4762,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4790433126561165143}
   m_LocalRotation: {x: -0, y: -0.28488585, z: -0, w: 0.9585615}
-  m_LocalPosition: {x: 1.365449, y: -0.019870758, z: -0.008245945}
+  m_LocalPosition: {x: -0.024550915, y: 0.64876264, z: -2.528246}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4660142023269157649}
-  m_RootOrder: 3
+  m_Father: {fileID: 8021349254221684009}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -33.104, z: 0}
 --- !u!1 &3436090555157715413
 GameObject:
@@ -4622,6 +4781,7 @@ GameObject:
   - component: {fileID: 3758689684711090832}
   - component: {fileID: 7270713645918250375}
   - component: {fileID: 8131901987952793501}
+  - component: {fileID: 8131901987952793502}
   m_Layer: 0
   m_Name: Mueble cocina
   m_TagString: Untagged
@@ -4709,7 +4869,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4759,8 +4919,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: 3852683729480139704, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
+  - {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4793,8 +4953,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.5989013, y: 3.5, z: 0.2929016}
-  m_Center: {x: 3.2005494, y: 0, z: 0}
+  m_Size: {x: 3.5989013, y: 3.5, z: 0.19443113}
+  m_Center: {x: 3.2005494, y: 0, z: -0.049235255}
 --- !u!65 &3800321164120809182
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4806,8 +4966,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0978312, y: 3.5, z: 0.2929016}
-  m_Center: {x: -0.51239336, y: 0, z: 0}
+  m_Size: {x: 1.0978312, y: 3.5, z: 0.21904927}
+  m_Center: {x: -0.51239336, y: 0, z: -0.03692618}
 --- !u!114 &3800321164120809183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4822,7 +4982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 3800321164120809180}
-  minColPointSqrdSeparation: 0.5
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -4832,7 +4992,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!1 &3875533070568463889
 GameObject:
   m_ObjectHideFlags: 0
@@ -4845,6 +5005,7 @@ GameObject:
   - component: {fileID: 117618211715130654}
   - component: {fileID: 2739584417209641361}
   - component: {fileID: 4182546298929925379}
+  - component: {fileID: 4182546298929925380}
   m_Layer: 0
   m_Name: Mesita
   m_TagString: Untagged
@@ -4926,7 +5087,7 @@ Transform:
   m_Children:
   - {fileID: 4723853728533429733}
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &4182546298929925379
 BoxCollider:
@@ -4941,6 +5102,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.53916985, y: 0.7159791, z: 0.3991871}
   m_Center: {x: -1.2295258, y: -0.16065109, z: 3.5048428}
+--- !u!114 &4182546298929925380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875533070568463889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 2739584417209641361}
+  - {fileID: 6490125390903678111}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!33 &4192881415238917027
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5035,7 +5222,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5085,8 +5272,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3852683729480139704, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5123,11 +5310,8 @@ Transform:
   - {fileID: 7560875036327682652}
   - {fileID: 7825696027416349463}
   - {fileID: 1799972510}
-  - {fileID: 3430248745845536662}
-  - {fileID: 2076894650}
-  - {fileID: 1939055675}
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4723853728533429733
 Transform:
@@ -5156,6 +5340,7 @@ GameObject:
   - component: {fileID: 4523912069402801823}
   - component: {fileID: 7196248638461990337}
   - component: {fileID: 7196248638461990338}
+  - component: {fileID: 7196248638461990339}
   m_Layer: 0
   m_Name: Silla
   m_TagString: Untagged
@@ -5214,8 +5399,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: 3852683729480139704, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
+  - {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5257,7 +5442,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6397349590629324484, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 261ddf2f2102ffe4a91c7ffdb6a05d47, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5358,14 +5543,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7196022863730496947}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.0720696, y: 0, z: 5.402152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0036754608, y: -0.42677286, z: 4.9690166}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 736277614714517213}
-  m_Father: {fileID: 3397037804617740517}
-  m_RootOrder: 2
+  m_Father: {fileID: 6516811534771352786}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5383726186855413238
 MeshFilter:
@@ -5437,7 +5622,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5479,8 +5664,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3852683729480139704, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5591,7 +5776,8 @@ Transform:
   m_LocalPosition: {x: 4.979859, y: 0.0033983612, z: 0.009986877}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3139822991351183967}
   m_Father: {fileID: 2950872884310395926}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5654,6 +5840,7 @@ GameObject:
   - component: {fileID: 7558379298260274266}
   - component: {fileID: 7558379298260274264}
   - component: {fileID: 7558379298260274267}
+  - component: {fileID: 7558379298260274268}
   m_Layer: 6
   m_Name: Porta_02
   m_TagString: Untagged
@@ -5712,7 +5899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 2041362029512571540}
-  minColPointSqrdSeparation: 0.5
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -5722,7 +5909,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!1 &6134651006382752938
 GameObject:
   m_ObjectHideFlags: 0
@@ -5842,6 +6029,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableOnInteract: 0
   eventSender: {fileID: 6192697233977599757}
+--- !u!114 &6192697233977599759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405797872171589163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 1735049810605735471}
+  - {fileID: 2320631571479423770}
+  - {fileID: 8574659255172480946}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
+--- !u!114 &6192697233977599760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405797872171589163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee94027b94ce984b9385af87a736b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundPlayer: {fileID: 6192697233977599755}
+  meshes:
+  - {fileID: 1735049810605735471}
+  - {fileID: 2320631571479423770}
+  - {fileID: 8574659255172480946}
+  maxValue: 0.1
+  minValue: 0.00001
+  maxDecrease: 0.005
 --- !u!1 &6211948086272409204
 GameObject:
   m_ObjectHideFlags: 0
@@ -6119,7 +6353,10 @@ Transform:
   m_LocalPosition: {x: -4.9798584, y: 0.0033982086, z: 0.009986877}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3340904651151054712}
+  - {fileID: 5344172380565563744}
+  - {fileID: 123991282023710304}
   m_Father: {fileID: 2950872884310395926}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6134,8 +6371,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.19899505, y: 3.5, z: 10.0758705}
-  m_Center: {x: 0, y: 0, z: 2.4620647}
+  m_Size: {x: 0.107979506, y: 3.5, z: 10.0758705}
+  m_Center: {x: -0.045507774, y: 0, z: 2.4620647}
 --- !u!114 &6516811534771352788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6150,7 +6387,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 5054522747685261531}
-  minColPointSqrdSeparation: 0.5
+  - {fileID: 4020724211253337230}
+  - {fileID: 1749699404212794428}
+  - {fileID: 5567516870211170188}
+  - {fileID: 5593265559481149859}
+  - {fileID: 3687487809749519300}
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -6160,7 +6402,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!4 &6588925697578829821
 Transform:
   m_ObjectHideFlags: 0
@@ -6174,7 +6416,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &6599119249232355660
 GameObject:
@@ -6274,9 +6516,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2853992407189745100, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: -3471495685121044709, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: eda6d674f0ebc2947a54c8984a0b9c04, type: 2}
+  - {fileID: 2100000, guid: 9f945856f05d4f441bca5c94965ac5ea, type: 2}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6322,7 +6564,7 @@ Transform:
   - {fileID: 8229620401931542665}
   - {fileID: 2713469866126679705}
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &6939158087941221583
 GameObject:
@@ -6355,8 +6597,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.19899474, y: 3.5000002, z: 15}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.1422835, y: 3.5000002, z: 15}
+  m_Center: {x: 0.028355628, y: 0, z: 0}
 --- !u!114 &6939158087941221585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6371,7 +6613,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 6659415370342877985}
-  minColPointSqrdSeparation: 0.5
+  - {fileID: 2217805949288309162}
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -6381,7 +6624,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!4 &6955588979830462199
 Transform:
   m_ObjectHideFlags: 0
@@ -6433,7 +6676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 4484293927615425067}
-  minColPointSqrdSeparation: 0.5
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -6443,7 +6686,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!33 &7091748730580437968
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6463,6 +6706,8 @@ GameObject:
   - component: {fileID: 5344172380565563744}
   - component: {fileID: 8756997335252521259}
   - component: {fileID: 1749699404212794428}
+  - component: {fileID: 8756997335252521260}
+  - component: {fileID: 8756997335252521261}
   m_Layer: 0
   m_Name: Porta_03
   m_TagString: Untagged
@@ -6525,6 +6770,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.56059766, y: 0.9948002, z: 0.53689677}
   m_Center: {x: -0.22435324, y: -0.1327067, z: 0.16875562}
+--- !u!114 &7196248638461990339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4790433126561165143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 7196248638461990337}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!33 &7206532538987989399
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6576,6 +6846,8 @@ GameObject:
   - component: {fileID: 123991282023710304}
   - component: {fileID: 2225320649133080919}
   - component: {fileID: 5593265559481149859}
+  - component: {fileID: 7263042351470575912}
+  - component: {fileID: 7263042351470575913}
   m_Layer: 0
   m_Name: Porta_04
   m_TagString: Untagged
@@ -6583,6 +6855,45 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!114 &7263042351470575912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7263042351470575911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 5593265559481149859}
+  - {fileID: 3687487809749519300}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
+--- !u!65 &7263042351470575913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7263042351470575911}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10383178, y: 2.5926428, z: 1.0292449}
+  m_Center: {x: -0.0000001527369, y: 0, z: 0.00000032782555}
 --- !u!23 &7270713645918250375
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6710,7 +7021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 647818763903523448}
-  minColPointSqrdSeparation: 0.5
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -6720,7 +7031,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!33 &7557718327196217272
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6729,6 +7040,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118322590460910251}
   m_Mesh: {fileID: 6182050287067357235, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+--- !u!114 &7557718327196217273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118322590460910251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc83dbeb58331f4da82934e32971938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: -1
+  mesh: {fileID: 0}
+--- !u!65 &7557718327196217274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118322590460910251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 0.050000038, z: 15}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &7558379298260274261
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6828,6 +7166,32 @@ MonoBehaviour:
         Data3: -1318458195
         Data4: -1972187106
       Path: event:/Acciones/Abrir puerta
+--- !u!114 &7558379298260274268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5976640260069833830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 4592438317530234783}
+  - {fileID: 8109806066307912131}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!4 &7560875036327682652
 Transform:
   m_ObjectHideFlags: 0
@@ -6858,15 +7222,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9202220773104775132}
-  m_LocalRotation: {x: 0.70441604, y: -0.06162845, z: 0.06162845, w: 0.70441604}
-  m_LocalPosition: {x: 0.78, y: 0.52874166, z: -5.42}
+  m_LocalRotation: {x: 0, y: 0.9099613, z: 0, w: 0.41469333}
+  m_LocalPosition: {x: 0.49340189, y: 0.148, z: -5.458184}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6053315509294904654}
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: -10, z: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 131, z: 0}
 --- !u!23 &7709761436562641531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6887,8 +7251,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3852683729480139704, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 938fda06437eb234d8fde654d4d2df60, type: 2}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6930,9 +7294,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2853992407189745100, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: -3471495685121044709, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
-  - {fileID: -7838387566959680082, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: eda6d674f0ebc2947a54c8984a0b9c04, type: 2}
+  - {fileID: 2100000, guid: 9f945856f05d4f441bca5c94965ac5ea, type: 2}
+  - {fileID: 2100000, guid: ff80ea14ca65b604ba495466257ae9eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6965,8 +7329,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 3.5, z: 0.19899474}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 10, y: 3.5, z: 0.18382555}
+  m_Center: {x: 0, y: 0, z: 0.0075846016}
 --- !u!114 &7765466673518435344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6981,7 +7345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 7765466673518435342}
-  minColPointSqrdSeparation: 0.5
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -6991,7 +7355,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!1 &7796926892719878570
 GameObject:
   m_ObjectHideFlags: 0
@@ -7022,6 +7386,7 @@ GameObject:
   - component: {fileID: 7206532538987989399}
   - component: {fileID: 6650074869859113511}
   - component: {fileID: 7797027821608603865}
+  - component: {fileID: 7797027821608603866}
   m_Layer: 0
   m_Name: Comoda
   m_TagString: Untagged
@@ -7042,6 +7407,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2162895, y: 1.3646948, z: 1.6101784}
   m_Center: {x: 0.10102114, y: 0.15358746, z: -0.094911575}
+--- !u!114 &7797027821608603866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797027821608603864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 6650074869859113511}
+  - {fileID: 5827892432673385635}
+  - {fileID: 874541027847010834}
+  - {fileID: 1975179431116625193}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!4 &7825696027416349463
 Transform:
   m_ObjectHideFlags: 0
@@ -7103,8 +7496,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.23871255, y: 0.30411473, z: 0.17501909}
-  m_Center: {x: 0.022034349, y: -0.07489934, z: 0.051840164}
+  m_Size: {x: 0.14775562, y: 0.2052089, z: 0.122426614}
+  m_Center: {x: -0.11822891, y: 0.9382369, z: -0.0017364547}
 --- !u!4 &8021349254221684009
 Transform:
   m_ObjectHideFlags: 0
@@ -7117,6 +7510,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3430248745845536662}
+  - {fileID: 2076894650}
+  - {fileID: 1939055675}
   - {fileID: 4660142023269157649}
   - {fileID: 7707914765680324372}
   - {fileID: 8131901987952793500}
@@ -7129,7 +7525,7 @@ Transform:
   - {fileID: 252785204511681993}
   - {fileID: 897354290}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8069626508347629737
 Transform:
@@ -7147,7 +7543,7 @@ Transform:
   - {fileID: 2950872884310395926}
   - {fileID: 3397037804617740517}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8095660748688735895
 GameObject:
@@ -7189,7 +7585,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7226,7 +7622,7 @@ Transform:
   - {fileID: 286707331}
   - {fileID: 1775723104}
   m_Father: {fileID: 8021349254221684009}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &8131901987952793501
 BoxCollider:
@@ -7241,6 +7637,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0099883, y: 2.7419777, z: 2.0605905}
   m_Center: {x: -0.05916524, y: 1.3709888, z: 0.008065462}
+--- !u!114 &8131901987952793502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3436090555157715413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 7270713645918250375}
+  - {fileID: 6497810792104266043}
+  - {fileID: 1889166437751229341}
+  - {fileID: 2179208928717025978}
+  - {fileID: 983343356523554923}
+  - {fileID: 1000107584}
+  - {fileID: 2042494778}
+  - {fileID: 987242420}
+  - {fileID: 2023380826}
+  - {fileID: 705498590}
+  - {fileID: 900649218}
+  - {fileID: 188299072}
+  - {fileID: 2135694865}
+  - {fileID: 1897526809}
+  - {fileID: 132955169}
+  - {fileID: 1278953161}
+  - {fileID: 305372440}
+  - {fileID: 592099630}
+  - {fileID: 1080127410}
+  - {fileID: 741232410}
+  - {fileID: 2093592637}
+  - {fileID: 108836504}
+  - {fileID: 1515642541}
+  - {fileID: 365473791}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!4 &8181523976416920081
 Transform:
   m_ObjectHideFlags: 0
@@ -7375,7 +7819,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshes:
   - {fileID: 7709761436562641531}
-  minColPointSqrdSeparation: 0.5
+  - {fileID: 2548640509021258233}
+  minColPointSqrdSeparation: 0.4
   colPosIndex: 0
   colSound:
     Guid:
@@ -7385,7 +7830,7 @@ MonoBehaviour:
       Data4: -545748994
     Path: "event:/Colisiones/Colisi\xF3n madera"
   sender: {fileID: 1954827780}
-  fadeOutTime: 1
+  fadeOutTime: 4
 --- !u!1 &8447258244821320883
 GameObject:
   m_ObjectHideFlags: 0
@@ -7398,6 +7843,7 @@ GameObject:
   - component: {fileID: 1495717228156524164}
   - component: {fileID: 6421736996880012609}
   - component: {fileID: 8447258244821320884}
+  - component: {fileID: 8447258244821320885}
   m_Layer: 0
   m_Name: Cama
   m_TagString: Untagged
@@ -7418,6 +7864,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4999999, y: 0.6874333, z: 2.0208802}
   m_Center: {x: 0, y: -0.17956921, z: 2.6988716}
+--- !u!114 &8447258244821320885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8447258244821320883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 6421736996880012609}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!1 &8482942047837854875
 GameObject:
   m_ObjectHideFlags: 0
@@ -7430,6 +7901,8 @@ GameObject:
   - component: {fileID: 3678522094204338355}
   - component: {fileID: 6402625779302621060}
   - component: {fileID: 8482942047837854876}
+  - component: {fileID: 8482942047837854877}
+  - component: {fileID: 8482942047837854878}
   m_Layer: 0
   m_Name: Mesa
   m_TagString: Untagged
@@ -7450,6 +7923,65 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1443648, y: 0.8191271, z: 1.6101784}
   m_Center: {x: 0.50350773, y: -0.24069287, z: -0.015657485}
+--- !u!114 &8482942047837854877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8482942047837854875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 6402625779302621060}
+  - {fileID: 8581346133407464021}
+  - {fileID: 6326315709667165723}
+  - {fileID: 1799972511}
+  - {fileID: 7196248638461990337}
+  - {fileID: 2076894651}
+  - {fileID: 1939055676}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
+--- !u!114 &8482942047837854878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8482942047837854875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 6402625779302621060}
+  - {fileID: 8581346133407464021}
+  - {fileID: 6326315709667165723}
+  - {fileID: 1799972511}
+  minColPointSqrdSeparation: 0.5
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sender: {fileID: 0}
+  fadeOutTime: 1
 --- !u!1 &8548190875009504210
 GameObject:
   m_ObjectHideFlags: 0
@@ -7576,6 +8108,45 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7196022863730496947}
   m_Mesh: {fileID: -4356050107254282486, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+--- !u!114 &8756997335252521260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196022863730496947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 1749699404212794428}
+  - {fileID: 5567516870211170188}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
+--- !u!65 &8756997335252521261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196022863730496947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10383178, y: 2.5926428, z: 1.0292449}
+  m_Center: {x: -0.0000001527369, y: 0, z: -0.00000032782555}
 --- !u!4 &9023302338404594719
 Transform:
   m_ObjectHideFlags: 0
@@ -7708,6 +8279,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 9023302338404594725}
   sender: {fileID: 1041364946}
+--- !u!114 &9023302338404594727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826658261377594535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 572778150299567761}
+  - {fileID: 9103373307302193350}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4
 --- !u!23 &9103373307302193350
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7728,7 +8325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9081730406208374975, guid: f29fd2afc52b8ca4bac0f843a9c237cc, type: 3}
+  - {fileID: 2100000, guid: 2d5a37f1cad3d3047be2661b4723f655, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7782,7 +8379,8 @@ GameObject:
   - component: {fileID: 9202220773104775135}
   - component: {fileID: 9202220773104775134}
   - component: {fileID: 9202220773104775137}
-  - component: {fileID: 9202220773104775136}
+  - component: {fileID: 9202220773104775138}
+  - component: {fileID: 9202220773104775139}
   m_Layer: 6
   m_Name: Cadeira
   m_TagString: Untagged
@@ -7817,19 +8415,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableOnInteract: 0
   eventSender: {fileID: 9202220773104775134}
---- !u!65 &9202220773104775136
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9202220773104775132}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.748787, y: 0.6770498, z: 1.2420648}
-  m_Center: {x: 1.0545527, y: -0.046442423, z: -0.5296256}
 --- !u!65 &9202220773104775137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7841,5 +8426,45 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.748787, y: 0.6770498, z: 1.2420648}
-  m_Center: {x: 1.0545527, y: -0.046442423, z: -0.5296256}
+  m_Size: {x: 0.6632633, y: 1.2420648, z: 0.12592614}
+  m_Center: {x: 0.010893166, y: 0.5296256, z: -0.26903397}
+--- !u!65 &9202220773104775138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202220773104775132}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6632633, y: 0.8452457, z: 0.46801162}
+  m_Center: {x: 0.010893166, y: 0.33121604, z: 0.03428209}
+--- !u!114 &9202220773104775139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202220773104775132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 5158001899252431400}
+  - {fileID: 5962040856343451172}
+  - {fileID: 5383900612494869712}
+  minColPointSqrdSeparation: 0.4
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: -495527781
+      Data2: 1281834533
+      Data3: 644311707
+      Data4: -545748994
+    Path: "event:/Colisiones/Colisi\xF3n madera"
+  sender: {fileID: 0}
+  fadeOutTime: 4

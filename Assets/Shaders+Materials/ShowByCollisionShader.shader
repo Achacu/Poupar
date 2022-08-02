@@ -58,7 +58,7 @@ Shader "Custom/ShowByCollisionShader"
         fixed _Sounding;
         fixed _ColAreaRadius;
 
-        fixed4 _ColPoints[10];
+        fixed4 _ColPoints[15];
 
         // void vert (inout appdata_full v, out Input o) {
         //   //v.vertex.xyz += v.normal;
@@ -81,7 +81,7 @@ Shader "Custom/ShowByCollisionShader"
             bool closeToColPos = false; 
 
             //The loop is aborted when there's no collision or the current point is within reach of a colPoint.
-            for(int i = 0; (_Colliding != 0) && (i < 10) && !closeToColPos; i++) {
+            for(int i = 0; (_Colliding != 0) && (i < 15) && !closeToColPos; i++) {
 
                 //1st check avoid calculating distance to null positions
                 dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
