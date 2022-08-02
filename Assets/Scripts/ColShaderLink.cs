@@ -10,6 +10,8 @@ public class ColShaderLink : MonoBehaviour
     [SerializeField] private int colPosIndex = 0;
     [SerializeField] private FMODUnity.EventReference colSound;
     [SerializeField] private EventSender sender;
+    [SerializeField] private bool setShaderAreaRadius;
+    [SerializeField] private float perObjectAreaRadius = 1f;
     // Start is called before the first frame update
     void OnValidate()
     {        
@@ -22,6 +24,13 @@ public class ColShaderLink : MonoBehaviour
     public void Awake()
     {
         OnValidate();
+        if(setShaderAreaRadius)
+        {
+            for (int i = 0; i < meshes.Count; i++) for (int j = 0; j < meshes[i].materials.Length; j++)
+                {
+                    meshes[i].materials[j].SetFloat("_ColAreaRadius", perObjectAreaRadius);
+                }
+        }
     }
 
     private float colExitTime = 0f;
