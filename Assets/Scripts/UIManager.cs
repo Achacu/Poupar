@@ -41,6 +41,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject soundSettingsMenu;
+    [SerializeField] private GameObject HUD;
     [SerializeField] private bool isPaused = false;
    // [SerializeField] private PlayerCamManager playerManager;
     private void TogglePauseMenu()
@@ -48,6 +49,7 @@ public class UIManager : MonoBehaviour
         isPaused = !isPaused;
         pauseMenu.SetActive(isPaused);
         soundSettingsMenu.SetActive(false);
+        HUD.SetActive(!isPaused);
         //playerManager.SetPlayerInControl(!isPaused);
         Time.timeScale = isPaused ? 0 : 1;
 

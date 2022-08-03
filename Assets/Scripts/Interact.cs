@@ -37,7 +37,7 @@ public class Interact : MonoBehaviour
             print("interacted!");
             lastInteractable?.Interact();
         }
-        else print("can't interact");
+        //else print("can't interact");
     }
 
     private IEnumerator CheckCanInteract()
@@ -57,7 +57,7 @@ public class Interact : MonoBehaviour
                 {
                     OnCanInteractChange(true);
                     canInteract = true;
-                    print("started interact: "+canInteract);                    
+                    //print("started interact: "+canInteract);                    
                 }
                 lastInteractable = hit.collider.GetComponent<Interactable>();
             }
@@ -67,7 +67,7 @@ public class Interact : MonoBehaviour
                 {
                     OnCanInteractChange(false);
                     canInteract = false;
-                    print("ended interact: " + canInteract);
+                    //print("ended interact: " + canInteract);
                 }
             }
                 

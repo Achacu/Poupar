@@ -383,6 +383,7 @@ MonoBehaviour:
   screensData: []
   blockingPanel: {fileID: 0}
   pauseMenu: {fileID: 0}
+  soundSettingsMenu: {fileID: 0}
   isPaused: 0
   screenIndex: 0
   fadeOutTime: 1
