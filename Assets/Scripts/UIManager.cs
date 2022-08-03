@@ -66,6 +66,7 @@ public class UIManager : MonoBehaviour
         SetBusVolume(VolumeSlider.SliderType.Music, PlayerPrefs.HasKey("MusicVolume") ? PlayerPrefs.GetFloat("MusicVolume") : 0.5f);
         SetBusVolume(VolumeSlider.SliderType.SFX, PlayerPrefs.HasKey("SFXVolume") ? PlayerPrefs.GetFloat("SFXVolume") : 0.5f);
 
+        if (screensData[screenIndex].waitTime > 0) NextScreen();
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

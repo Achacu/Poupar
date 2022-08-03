@@ -382,10 +382,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   screensData: []
   blockingPanel: {fileID: 0}
-  pauseMenu: {fileID: 0}
-  soundSettingsMenu: {fileID: 0}
+  pauseMenu: {fileID: 5526892404292251324}
+  soundSettingsMenu: {fileID: 8780158673156132488}
+  HUD: {fileID: 0}
   isPaused: 0
   screenIndex: 0
+  nextSceneSender: {fileID: 0}
   fadeOutTime: 1
   fadeInTime: 1
 --- !u!1 &3118835869479272784
@@ -1850,7 +1852,7 @@ PrefabInstance:
     - target: {fileID: 1722881776074839655, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5526892404292251324}
     - target: {fileID: 1722881776074839655, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 

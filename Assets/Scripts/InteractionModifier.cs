@@ -11,11 +11,11 @@ public class InteractionModifier : MonoBehaviour
     // Start is called before the first frame update
     public void OnEnable()
     {
-        triggerSender.OnActivate += ModifyInteraction;
+        if(triggerSender)triggerSender.OnActivate += ModifyInteraction;
     }
     public void OnDisable()
     {
-        triggerSender.OnActivate -= ModifyInteraction;
+        if(triggerSender)triggerSender.OnActivate -= ModifyInteraction;
     }
 
     private void ModifyInteraction(EventSender obj)

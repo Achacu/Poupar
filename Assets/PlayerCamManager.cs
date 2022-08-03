@@ -30,13 +30,13 @@ public class PlayerCamManager : MonoBehaviour
     //}
     public void OnEnable()
     {
-        startAnimSender.OnDeactivate += StartAnim;
-        startGameSender.OnActivate += StartGame;
+        if(startAnimSender) startAnimSender.OnDeactivate += StartAnim;
+        if (startGameSender) startGameSender.OnActivate += StartGame;
     }
     public void OnDisable()
     {
-        startAnimSender.OnDeactivate -= StartAnim;
-        startGameSender.OnActivate -= StartGame;
+        if (startAnimSender) startAnimSender.OnDeactivate -= StartAnim;
+        if (startGameSender) startGameSender.OnActivate -= StartGame;
     }
 
     private void StartGame(EventSender obj)
