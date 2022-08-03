@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &5536817 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5277244241589315844, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
-  m_PrefabInstance: {fileID: 93432308}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e99ec0b62daa2f45a953675c30818f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &43292592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -345,17 +334,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &64987359 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6158891587810635953, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
-  m_PrefabInstance: {fileID: 93432308}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 914a07174b67c704791b5c0b55fb65ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &82781837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -544,6 +522,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: startAnimSender
+      value: 
+      objectReference: {fileID: 363244533}
+    - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: startGameSender
+      value: 
+      objectReference: {fileID: 1994138861}
     - target: {fileID: 7722268604725077336, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_Name
       value: Player+Cam
@@ -2563,45 +2549,6 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 533337040791460764, guid: 4863d591acc36e3438fdf97594a7fbae, type: 3}
   m_PrefabInstance: {fileID: 1222278856}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1237013749 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7722268604725077336, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
-  m_PrefabInstance: {fileID: 93432308}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1237013751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237013749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48516ef6aba9ed447b1c9d1813e5e7ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  move: {fileID: 64987359}
-  moveCam: {fileID: 1522653119}
-  rotCam: {fileID: 5536817}
-  playerInControl: 0
-  startAnimSender: {fileID: 363244533}
-  startGameSender: {fileID: 1994138861}
---- !u!111 &1237013753
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237013749}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: ac7317d0fb8171a4bbd0358a548f0c7a, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: ac7317d0fb8171a4bbd0358a548f0c7a, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1001 &1283462412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2931,17 +2878,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visible: -1
   mesh: {fileID: 0}
---- !u!114 &1522653119 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5277244240219965519, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
-  m_PrefabInstance: {fileID: 93432308}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9188b95bc1116e74da4a5fd55166f8e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1556766546 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
