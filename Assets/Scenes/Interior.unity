@@ -296,14 +296,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7915128793418412531, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915128794268013500, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 7915128794268013501, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: dialogueGroups.Array.size
       value: 6
@@ -356,34 +348,6 @@ PrefabInstance:
       propertyPath: dialogueGroups.Array.data[5].trigger
       value: 
       objectReference: {fileID: 9023302338404594722}
-    - target: {fileID: 7915128794299995949, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 828.6201
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915128794299995949, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_fontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915128794803161516, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 7915128794803161516, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 7915128794809653360, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
