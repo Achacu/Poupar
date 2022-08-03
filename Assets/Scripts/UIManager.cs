@@ -32,11 +32,13 @@ public class UIManager : MonoBehaviour
     public void OnEnable()
     {
         CharMove.OnEscapePressed += TogglePauseMenu;
+        if(nextSceneSender)nextSceneSender.OnActivate += NextScreen;
         Time.timeScale = 1;
     }
     public void OnDisable()
     {
         CharMove.OnEscapePressed -= TogglePauseMenu;
+        if (nextSceneSender) nextSceneSender.OnActivate -= NextScreen;
     }
 
     [SerializeField] private GameObject pauseMenu;
@@ -60,7 +62,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
         SetBusVolume(VolumeSlider.SliderType.Music, PlayerPrefs.HasKey("MusicVolume") ? PlayerPrefs.GetFloat("MusicVolume") : 0.5f);
         SetBusVolume(VolumeSlider.SliderType.SFX, PlayerPrefs.HasKey("SFXVolume") ? PlayerPrefs.GetFloat("SFXVolume") : 0.5f);
 
@@ -68,6 +70,8 @@ public class UIManager : MonoBehaviour
     }
 
     [SerializeField, ContextMenuItem("NextScreen", "NextScreen")] private int screenIndex;
+    [SerializeField] private EventSender nextSceneSender;
+    private void NextScreen(EventSender sender) => NextScreen();
     public void NextScreen()
     {
         StartCoroutine(NextScreenCorot());
@@ -84,7 +88,11 @@ public class UIManager : MonoBehaviour
 
         print("next screen");
         screenIndex++;
-        if (screenIndex >= screensData.Length) yield break;
+        if (screenIndex >= screensData.Length)
+        {
+            LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            yield break;
+        }
 
         blockingPanel.SetActive(true);
         yield return new WaitForSeconds(screensData[screenIndex-1].fadeOutToInDelay);
