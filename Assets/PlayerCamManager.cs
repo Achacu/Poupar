@@ -23,6 +23,11 @@ public class PlayerCamManager : MonoBehaviour
         moveCam.enabled = playerInControl;
         rotCam.enabled = playerInControl;
     }
+    //public void SetPlayerInControl(bool yes)
+    //{
+    //    playerInControl = yes;
+    //    UpdatePlayerControl();
+    //}
     public void OnEnable()
     {
         startAnimSender.OnDeactivate += StartAnim;

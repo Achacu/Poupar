@@ -19,6 +19,10 @@ public class InteractCursor : MonoBehaviour
     {
         Interact.OnCanInteractChange += ChangeSprite;
     }
+    public void OnDisable()
+    {
+        Interact.OnCanInteractChange -= ChangeSprite;
+    }
 
     private void ChangeSprite(bool canInteract)
     {

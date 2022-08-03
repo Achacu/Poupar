@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
 
 public class UIManager : MonoBehaviour
 {
@@ -27,10 +28,40 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private ScreenData[] screensData;
     [SerializeField] private GameObject blockingPanel;
+
+    public void OnEnable()
+    {
+        CharMove.OnEscapePressed += TogglePauseMenu;
+        Time.timeScale = 1;
+    }
+    public void OnDisable()
+    {
+        CharMove.OnEscapePressed -= TogglePauseMenu;
+    }
+
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject soundSettingsMenu;
+    [SerializeField] private bool isPaused = false;
+   // [SerializeField] private PlayerCamManager playerManager;
+    private void TogglePauseMenu()
+    {
+        isPaused = !isPaused;
+        pauseMenu.SetActive(isPaused);
+        soundSettingsMenu.SetActive(false);
+        //playerManager.SetPlayerInControl(!isPaused);
+        Time.timeScale = isPaused ? 0 : 1;
+
+    }
+    public void DestroySelf() => Destroy(gameObject);
+    public void LoadScene(int buildIndex) => SceneManager.LoadScene(buildIndex);
+
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(this);
+        SetBusVolume(VolumeSlider.SliderType.Music, PlayerPrefs.HasKey("MusicVolume") ? PlayerPrefs.GetFloat("MusicVolume") : 0.5f);
+        SetBusVolume(VolumeSlider.SliderType.SFX, PlayerPrefs.HasKey("SFXVolume") ? PlayerPrefs.GetFloat("SFXVolume") : 0.5f);
+
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -95,9 +126,14 @@ public class UIManager : MonoBehaviour
         }
         if(!fadeIn) screen.gameObject.SetActive(false);
     }
-    // Update is called once per frame
-    void Update()
+
+    public static void SetBusVolume(VolumeSlider.SliderType type, float value)
     {
+        return; //placeholder
         
+        string busName = (type == VolumeSlider.SliderType.Music) ? "Música" : "FX";
+        FMOD.Studio.Bus bus = FMODUnity.RuntimeManager.GetBus("bus:/" + busName); //"bus:/Master/" +
+        bus.setVolume(value);
     }
+
 }

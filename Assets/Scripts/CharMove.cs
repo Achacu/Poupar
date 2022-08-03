@@ -13,6 +13,7 @@ public class CharMove : MonoBehaviour
     [SerializeField] private float maxSpeedChange = 1f;
     // Start is called before the first frame update
 
+    public static event Action OnEscapePressed = delegate { };
     public event Action<bool> OnMoveChange = delegate { };
     void Start()
     {
@@ -37,10 +38,18 @@ public class CharMove : MonoBehaviour
     {
         //playerInput.Controls.General.Enable();
         playerInput.Controls.General.Move.performed += UpdateInput;
+        playerInput.Controls.General.PauseGame.performed += EscapePressed;
     }
+
+
     public void OnDisable()
     {
         playerInput.Controls.General.Move.performed -= UpdateInput;
+        playerInput.Controls.General.PauseGame.performed -= EscapePressed;
+    }
+    private void EscapePressed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        OnEscapePressed.Invoke();
     }
 
     Vector2 lastInput = Vector2.zero;

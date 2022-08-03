@@ -30,6 +30,7 @@ public class SoundPlayer : MonoBehaviour
     {
         foreach (EventSound es in eventSounds)
             if (es.sender) es.sender.OnActivate -= PlaySound;
+        activeSoundInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
     }
 
     // Start is called before the first frame update

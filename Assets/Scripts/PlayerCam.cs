@@ -38,6 +38,14 @@ public class PlayerCam : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        if (Time.timeScale == 0)
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            return;
+        }
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         //yRot += Input.GetAxisRaw("Mouse X") /** Time.deltaTime*/ * sensX;
         //xRot -= Input.GetAxisRaw("Mouse Y") /** Time.deltaTime */* sensY;
         yRot += mouseDelta.x * sensX;
