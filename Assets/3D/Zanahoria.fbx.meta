@@ -3,7 +3,17 @@ guid: 86d03a9ca9eb97f4eb0cf4bb1c0470ff
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hojas_mtrl
+    second: {fileID: 2100000, guid: 412bf0de38c09b841a8a8f3295fa435a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zanahoria_mtrl
+    second: {fileID: 2100000, guid: f6f31c76d3d26454fa50f8af1549cdf7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
