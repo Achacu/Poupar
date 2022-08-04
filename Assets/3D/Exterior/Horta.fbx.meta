@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 5a876d97cf98fe94c97f2681ee1f3aa1
+guid: 30da502d5475e9143a77ad3d49942acb
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Horta_mtrl
+    second: {fileID: 2100000, guid: a2e7bcfe29ff2b549929a6ba745d9719, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
