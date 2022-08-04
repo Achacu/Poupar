@@ -59,6 +59,7 @@ Shader "Custom/StandardTerrainBlindPlane"{
                 float dstToCam = length(IN.worldPos.xyz - _WorldSpaceCameraPos.xyz);
                 o.Alpha = weight * ((_Visible >= 0)? _Visible : (dstToCam > _UpperBlindTh)? 0 : (dstToCam < _LowerBlindTh)? 1
             : (_UpperBlindTh - dstToCam)/(_UpperBlindTh - _LowerBlindTh));
+            
                 o.Smoothness = mixedDiffuse.a;
                 o.Metallic = dot(splat_control, half4(_Metallic0, _Metallic1, _Metallic2, _Metallic3));
             }

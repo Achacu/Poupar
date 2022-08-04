@@ -21,6 +21,8 @@ Shader "Custom/ShowByColLeaves" {
         _Colliding ("Colliding", Range(0,1)) = 0
         _ColPos ("Collision Position", Vector) = (0,0,0,0)
         _ColAreaRadius ("Collision Area Radius", Range(0,5)) = 1
+        _Sounding ("Sounding", Range(0,1)) = 0        
+        _OverrideAlpha ("OverrideAlpha", Range(-1,1)) = 1
     }
 
         SubShader{
@@ -42,6 +44,8 @@ Shader "Custom/ShowByColLeaves" {
         fixed _Colliding;
         fixed4 _ColPos;
         fixed _ColAreaRadius;
+        fixed _OverrideAlpha;
+        fixed _Sounding;
 
         fixed4 _ColPoints[10];
 
@@ -64,13 +68,25 @@ Shader "Custom/ShowByColLeaves" {
 
             fixed dstToHitPoint = 0;
             bool closeToColPos = false; 
+
             //The loop is aborted when there's no collision or the current point is within reach of a colPoint.
-            for(int i = 0; (_Colliding != 0) && (i < 10) && !closeToColPos; i++) {
+            for(int i = 0; (_Colliding != 0) && (i < 15) && !closeToColPos; i++) {
+
                 //1st check avoid calculating distance to null positions
                 dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
                 closeToColPos = (dstToHitPoint < _ColAreaRadius);
             }
-            o.Alpha = closeToColPos? (_Colliding * c.a) : 0;
+            o.Alpha = (_OverrideAlpha >= 0)? _OverrideAlpha : 
+            (closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a));
+
+
+            // //The loop is aborted when there's no collision or the current point is within reach of a colPoint.
+            // for(int i = 0; (_Colliding != 0) && (i < 10) && !closeToColPos; i++) {
+            //     //1st check avoid calculating distance to null positions
+            //     dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
+            //     closeToColPos = (dstToHitPoint < _ColAreaRadius);
+            // }
+            // o.Alpha = closeToColPos? (_Colliding * c.a) : 0;
 
 
             o.Specular = _Shininess;
