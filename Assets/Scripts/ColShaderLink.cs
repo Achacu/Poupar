@@ -24,13 +24,13 @@ public class ColShaderLink : MonoBehaviour
     public void Awake()
     {
         OnValidate();
-        if(setShaderAreaRadius)
-        {
-            for (int i = 0; i < meshes.Count; i++) for (int j = 0; j < meshes[i].materials.Length; j++)
-                {
-                    meshes[i].materials[j].SetFloat("_ColAreaRadius", perObjectAreaRadius);
-                }
-        }
+
+        for (int i = 0; i < meshes.Count; i++) for (int j = 0; j < meshes[i].materials.Length; j++)
+            {
+               if(setShaderAreaRadius) meshes[i].materials[j].SetFloat("_ColAreaRadius", perObjectAreaRadius);
+                meshes[i].materials[j].SetFloat("_OverrideAlpha", -1);
+            }
+
     }
 
     private float colExitTime = 0f;

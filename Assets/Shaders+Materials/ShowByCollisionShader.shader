@@ -15,6 +15,7 @@ Shader "Custom/ShowByCollisionShader"
         _Sounding ("Sounding", Range(0,1)) = 0
         //_ColPos ("Collision Position", Vector) = (0,0,0,0)
         _ColAreaRadius ("Collision Area Radius", Range(0,5)) = 1        
+        _OverrideAlpha ("OverrideAlpha", Range(-1,1)) = 1        
     }
     SubShader
     {
@@ -57,6 +58,7 @@ Shader "Custom/ShowByCollisionShader"
         fixed _Colliding;
         fixed _Sounding;
         fixed _ColAreaRadius;
+        fixed _OverrideAlpha;
 
         fixed4 _ColPoints[15];
 
@@ -87,7 +89,8 @@ Shader "Custom/ShowByCollisionShader"
                 dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
                 closeToColPos = (dstToHitPoint < _ColAreaRadius);
             }
-            o.Alpha = closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a);
+            o.Alpha = (_OverrideAlpha >= 0)? _OverrideAlpha : 
+            (closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a));
             
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables
