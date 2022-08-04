@@ -1707,6 +1707,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &684444654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7722268604725077336, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+  m_PrefabInstance: {fileID: 705885013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &684444658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684444654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSounds: []
 --- !u!1 &694230209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,6 +1936,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[1].sender
+      value: 
+      objectReference: {fileID: 769314346}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Path
+      value: "event:/M\xFAsica/Men\xFA"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[1].sound.Path
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data1
+      value: -390975638
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data2
+      value: 1322930784
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data3
+      value: -167255375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data4
+      value: 101023842
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[1].sound.Guid.Data1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[1].sound.Guid.Data2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[1].sound.Guid.Data3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: eventSounds.Array.data[1].sound.Guid.Data4
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5277244240219965516, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.465
@@ -1947,6 +2013,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: sound.Path
+      value: event:/Acciones/Levantarse_cama_comienzo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: playerInControl
       value: 0
       objectReference: {fileID: 0}
@@ -1958,6 +2028,22 @@ PrefabInstance:
       propertyPath: startGameSender
       value: 
       objectReference: {fileID: 769314346}
+    - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: sound.Guid.Data1
+      value: -2067900201
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: sound.Guid.Data2
+      value: 1299719595
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: sound.Guid.Data3
+      value: 350853044
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+      propertyPath: sound.Guid.Data4
+      value: -231720474
+      objectReference: {fileID: 0}
     - target: {fileID: 6158891587810635953, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: speed
       value: 2
@@ -3500,11 +3586,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -4207,7 +4293,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -5015,7 +5101,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -5439,7 +5525,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -5797,11 +5883,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 2
@@ -7724,11 +7810,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: -207969878
+      Data2: 1260407126
+      Data3: 774066581
+      Data4: 1888809700
+    Path: event:/Colisiones/Colision_sorda_pared_2
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -7883,7 +7969,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -8717,11 +8803,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: -207969878
+      Data2: 1260407126
+      Data3: 774066581
+      Data4: 1888809700
+    Path: event:/Colisiones/Colision_sorda_pared_2
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -8869,7 +8955,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9214,11 +9300,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9522,11 +9608,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: -207969878
+      Data2: 1260407126
+      Data3: 774066581
+      Data4: 1888809700
+    Path: event:/Colisiones/Colision_sorda_pared_2
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9586,11 +9672,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: -207969878
+      Data2: 1260407126
+      Data3: 774066581
+      Data4: 1888809700
+    Path: event:/Colisiones/Colision_sorda_pared_2
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9700,7 +9786,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9783,11 +9869,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9936,11 +10022,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10098,11 +10184,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10264,11 +10350,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10345,11 +10431,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10613,11 +10699,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 2
@@ -10761,11 +10847,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10821,11 +10907,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: -494847746
+      Data2: 1115363494
+      Data3: -1902596162
+      Data4: -1556522919
+    Path: event:/Colisiones/Colision_cama
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10892,7 +10978,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10922,7 +11008,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -11071,11 +11157,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -11262,11 +11348,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -11431,7 +11517,7 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1

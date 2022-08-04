@@ -120,6 +120,8 @@ MonoBehaviour:
       Data2: 1281834533
       Data3: 644311707
       Data4: -545748994
-    Path: "event:/Colisiones/Colisi\xF3n muebles madera"
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
+  setShaderAreaRadius: 0
+  perObjectAreaRadius: 1
   fadeOutTime: 3

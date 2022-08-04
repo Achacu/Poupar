@@ -139,10 +139,8 @@ public class UIManager : MonoBehaviour
     }
 
     public static void SetBusVolume(VolumeSlider.SliderType type, float value)
-    {
-        return; //placeholder
-        
-        string busName = (type == VolumeSlider.SliderType.Music) ? "Música" : "FX";
+    {        
+        string busName = (type == VolumeSlider.SliderType.Music) ? "Musica" : "FX";
         FMOD.Studio.Bus bus = FMODUnity.RuntimeManager.GetBus("bus:/" + busName); //"bus:/Master/" +
         bus.setVolume(value);
     }

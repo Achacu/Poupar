@@ -48,6 +48,7 @@ public class PlayerCamManager : MonoBehaviour
     private void StartAnim(EventSender obj)
     {
         GetComponent<Animation>().Play();
+        GetComponent<SoundPlayer>().PlaySound(sound);
     }
-
+    [SerializeField] private FMODUnity.EventReference sound;
 }
