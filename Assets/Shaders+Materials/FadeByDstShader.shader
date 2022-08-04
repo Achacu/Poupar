@@ -15,7 +15,7 @@ Shader "Custom/FadeByDstShader"
     }
     SubShader
     {
-	Tags { "Queue"="Transparent" "Rendering"="Transparent" "IgnoreProjector" = "True"}
+	Tags { "Queue"="Transparent" "Rendering"="Transparent" "IgnoreProjector" = "True" "TerrainCompatible"="True"}
 
        Pass {
             ZWrite On
@@ -76,8 +76,8 @@ Shader "Custom/FadeByDstShader"
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
             o.Albedo = c.rgb;
             // Metallic and smoothness come from slider variables
-            o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap) * _Metallic;
-            o.Smoothness = _Glossiness;
+            o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).r * _Metallic;
+            o.Smoothness = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).a * _Glossiness;
             o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));
             //o.Alpha = IN.color.a;
         }
