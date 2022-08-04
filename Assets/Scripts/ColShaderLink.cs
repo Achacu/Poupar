@@ -30,7 +30,6 @@ public class ColShaderLink : MonoBehaviour
                if(setShaderAreaRadius) meshes[i].materials[j].SetFloat("_ColAreaRadius", perObjectAreaRadius);
                 meshes[i].materials[j].SetFloat("_OverrideAlpha", -1);
             }
-
     }
 
     private float colExitTime = 0f;
@@ -41,9 +40,16 @@ public class ColShaderLink : MonoBehaviour
     {
         if (Time.time - colExitTime < fadeOutTime)
             SetShaderParams(1 - (Time.time - colExitTime) / fadeOutTime);
+        else if(!onCollision && meshes[0].enabled)
+        {
+            for (int i = 0; i < meshes.Count; i++) meshes[i].enabled = false;
+        }
     }
+    private bool onCollision = false;
     void OnCollisionEnter(Collision collision)
     {
+        onCollision = true;
+
         if(sender) sender.TriggerEvent(true);
         FMODUnity.RuntimeManager.PlayOneShot(colSound, collision.GetContact(0).point);
         
@@ -56,6 +62,7 @@ public class ColShaderLink : MonoBehaviour
         colPoints[colPosIndex] = collision.GetContact(0).point;
         colPosIndex++;
 
+        for (int i = 0; i < meshes.Count; i++) meshes[i].enabled = true;
         SetShaderParams(1, colPoints);
     }
     private void SetShaderParams(float colliding)
@@ -83,6 +90,7 @@ public class ColShaderLink : MonoBehaviour
 
     public void OnCollisionStay(Collision collision)
     {
+        onCollision = true;
         if (colPosIndex >= colPoints.Length) return;
         colExitTime = Time.time - fadeOutTime; //stops fade out
 
@@ -103,6 +111,7 @@ public class ColShaderLink : MonoBehaviour
     {
         //print("stopped colliding with: " + collision.gameObject.name);
         colExitTime = Time.time;
+        onCollision = false;
         //mesh.material.SetFloat("_Colliding", 0);
     }
 }
