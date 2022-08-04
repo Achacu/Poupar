@@ -8,6 +8,8 @@ Shader "Custom/ShowByCollisionShader"
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         [Gamma] _Metallic("Metallic", Range(0.0, 1.0)) = 0.0
         _MetallicGlossMap("Metallic", 2D) = "white" {}
+        _Occlusion("Occlusion", Range(0,1)) = 0.0
+        _OcclusionMap ("Occlusion Map", 2D) = "white" {}
 
         _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
         _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
@@ -40,6 +42,7 @@ Shader "Custom/ShowByCollisionShader"
         sampler2D _MainTex;
         sampler2D _BumpMap;
         sampler2D _MetallicGlossMap;
+        sampler2D _OcclusionMap;
 
         struct Input
         {
@@ -51,6 +54,7 @@ Shader "Custom/ShowByCollisionShader"
 
         half _Glossiness;
         half _Metallic;
+        half _Occlusion;
         fixed4 _Color;
         fixed _LowerBlindTh;
         fixed _UpperBlindTh;
@@ -78,7 +82,8 @@ Shader "Custom/ShowByCollisionShader"
         {
             // Albedo comes from a texture tinted by color
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-            
+            fixed4 Occ = tex2D(_OcclusionMap, IN.uv_MainTex) * (1-_Occlusion);
+
             fixed dstToHitPoint = 0;
             bool closeToColPos = false; 
 
@@ -92,7 +97,8 @@ Shader "Custom/ShowByCollisionShader"
             o.Alpha = (_OverrideAlpha >= 0)? _OverrideAlpha : 
             (closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a));
             
-            o.Albedo = c.rgb;
+
+            o.Albedo = c.rgb * Occ.rgb;
             // Metallic and smoothness come from slider variables
             o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).r * _Metallic;
             o.Smoothness = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).a * _Glossiness;
