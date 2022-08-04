@@ -31,6 +31,7 @@ public class ColShaderLink : MonoBehaviour
                if(setShaderAreaRadius) meshes[i].materials[j].SetFloat("_ColAreaRadius", perObjectAreaRadius);
                 meshes[i].materials[j].SetFloat("_OverrideAlpha", -1);
             }
+        if(!meshAlwaysActive) for (int i = 0; i < meshes.Count; i++) meshes[i].enabled = false;
     }
 
     private float colExitTime = 0f;
