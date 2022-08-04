@@ -1,4 +1,4 @@
-Shader "Custom/ShowByCollisionShader"
+Shader "Custom/ShowByCollisionCutout"
 {
     Properties
     {
@@ -17,24 +17,27 @@ Shader "Custom/ShowByCollisionShader"
         _Sounding ("Sounding", Range(0,1)) = 0
         //_ColPos ("Collision Position", Vector) = (0,0,0,0)
         _ColAreaRadius ("Collision Area Radius", Range(0,5)) = 1        
-        _OverrideAlpha ("OverrideAlpha", Range(-1,1)) = 1        
+        _OverrideAlpha ("OverrideAlpha", Range(-1,1)) = 1
+        
+        _Cutoff ("Alpha Cutoff", Range(0,1)) = 0.5
     }
     SubShader
     {
-	Tags { "Queue"="Transparent+2"   "Rendering"="Transparent" "IgnoreProjector" = "True" }
+	Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="TransparentCutout" }
 
-       Pass {
-            ZWrite On
-            ColorMask 0
-        }
-	ZWrite Off
-    //Cull off
+    //    Pass {
+    //         ZWrite On
+    //         ColorMask 0
+    //     }
+	// ZWrite Off
+    Cull off
 	//Blend SrcAlpha OneMinusSrcAlpha
     //Blend One One
     CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
         //#pragma vertex vert
-        #pragma surface surf Standard fullforwardshadows alpha:fade 
+        #pragma surface surf Standard fullforwardshadows alphatest:_Cutoff
+        //#pragma surface surf Standard fullforwardshadows alpha:_Cutoff 
         #pragma shader_feature _OCCLUSION_MAP
         
         // Use shader model 3.0 target, to get nicer looking lighting
@@ -83,12 +86,13 @@ Shader "Custom/ShowByCollisionShader"
         {
             // Albedo comes from a texture tinted by color
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-            fixed Occ; 
-            #if defined(_OCCLUSION_MAP)
-                Occ = lerp(1, tex2D(_OcclusionMap, IN.uv_MainTex).g, _Occlusion);
-            #else
-                Occ = 1;
-            #endif
+
+            // fixed Occ; 
+            // #if defined(_OCCLUSION_MAP)
+            //     Occ = lerp(1, tex2D(_OcclusionMap, IN.uv_MainTex).g, _Occlusion);
+            // #else
+            //     Occ = 1;
+            // #endif
             fixed dstToHitPoint = 0;
             bool closeToColPos = false; 
 
@@ -98,11 +102,12 @@ Shader "Custom/ShowByCollisionShader"
                 //1st check avoid calculating distance to null positions
                 dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
                 closeToColPos = (dstToHitPoint < _ColAreaRadius);
-            }
+            }            
             o.Alpha = (_OverrideAlpha >= 0)? _OverrideAlpha*c.a : 
             (closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a));            
 
-            o.Albedo = c.rgb * Occ;
+            o.Albedo = c.rgb; //* Occ;
+           // o.Alpha = c.a;
             // Metallic and smoothness come from slider variables
             o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).r * _Metallic;
             o.Smoothness = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).a * _Glossiness;

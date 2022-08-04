@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 30da502d5475e9143a77ad3d49942acb
+guid: 5a876d97cf98fe94c97f2681ee1f3aa1
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abeja_mtrl
+    second: {fileID: 2100000, guid: a63ad1d908fffc842a13988fb1471e42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ala_mtrl
+    second: {fileID: 2100000, guid: 78e3603700e64c3449e854319fca4795, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

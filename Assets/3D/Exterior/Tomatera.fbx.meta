@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 2439668b589e1d84c92acbdad6a5b00e
+guid: 69f9c1651b41c5d4cbf1301f7e5bfc41
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoseClimber_INST
+    second: {fileID: 2100000, guid: f90d34bf862a63a4fab354727e2c2bc4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

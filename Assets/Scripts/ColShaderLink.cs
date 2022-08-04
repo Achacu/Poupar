@@ -5,7 +5,7 @@ using UnityEngine;
 public class ColShaderLink : MonoBehaviour
 {
     [SerializeField] private List<MeshRenderer> meshes = new List<MeshRenderer>();
-    [SerializeField] private float minColPointSqrdSeparation = 0.5f;
+    [SerializeField] private float minColPointSqrdSeparation = 0.2f;
     private Vector4[] colPoints = new Vector4[15];
     [SerializeField] private int colPosIndex = 0;
     [SerializeField] private FMODUnity.EventReference colSound;
@@ -34,7 +34,7 @@ public class ColShaderLink : MonoBehaviour
     }
 
     private float colExitTime = 0f;
-    [SerializeField] private float fadeOutTime = 1f;
+    [SerializeField] private float fadeOutTime = 3f;
 
     // Update is called once per frame
     void Update()

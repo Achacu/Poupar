@@ -76,7 +76,7 @@ Shader "Custom/ShowByColLeaves" {
                 dstToHitPoint = (_ColPoints[i].xyz == float3(0,0,0))? 100 : distance(_ColPoints[i], IN.worldPos);
                 closeToColPos = (dstToHitPoint < _ColAreaRadius);
             }
-            o.Alpha = (_OverrideAlpha >= 0)? _OverrideAlpha : 
+            o.Alpha = (_OverrideAlpha >= 0)? _OverrideAlpha * c.a : 
             (closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a));
 
 
