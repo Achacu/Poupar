@@ -72,6 +72,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField, ContextMenuItem("NextScreen", "NextScreen")] private int screenIndex;
     [SerializeField] private EventSender nextSceneSender;
+    [SerializeField] private bool automaticSceneLoad = true;
     private void NextScreen(EventSender sender) => NextScreen();
     public void NextScreen()
     {
@@ -91,7 +92,7 @@ public class UIManager : MonoBehaviour
         screenIndex++;
         if (screenIndex >= screensData.Length)
         {
-            LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if(automaticSceneLoad) LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             yield break;
         }
 

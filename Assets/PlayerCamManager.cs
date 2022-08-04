@@ -11,7 +11,8 @@ public class PlayerCamManager : MonoBehaviour
     [SerializeField] private bool playerInControl = true;
 
     [SerializeField] private EventSender startAnimSender;
-    [SerializeField] private EventSender startGameSender;
+    [SerializeField] private EventSender enableControlSender;
+    [SerializeField] private EventSender disableControlSender;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,17 +32,24 @@ public class PlayerCamManager : MonoBehaviour
     public void OnEnable()
     {
         if(startAnimSender) startAnimSender.OnDeactivate += StartAnim;
-        if (startGameSender) startGameSender.OnActivate += StartGame;
+        if (enableControlSender) enableControlSender.OnActivate += EnableControl;
+        if (disableControlSender) disableControlSender.OnActivate += DisableControl;
     }
     public void OnDisable()
     {
         if (startAnimSender) startAnimSender.OnDeactivate -= StartAnim;
-        if (startGameSender) startGameSender.OnActivate -= StartGame;
+        if (enableControlSender) enableControlSender.OnActivate -= EnableControl;
+        if (disableControlSender) disableControlSender.OnActivate -= DisableControl;
     }
 
-    private void StartGame(EventSender obj)
+    private void EnableControl(EventSender obj)
     {
         playerInControl = true;
+        UpdatePlayerControl();
+    }
+    private void DisableControl(EventSender obj)
+    {
+        playerInControl = false;
         UpdatePlayerControl();
     }
 

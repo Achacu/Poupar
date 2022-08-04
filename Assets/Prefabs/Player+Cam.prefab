@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 661151672749147110}
   - component: {fileID: 4513604635396286283}
   - component: {fileID: 5795471742814532328}
+  - component: {fileID: 6014049926539645095}
   m_Layer: 0
   m_Name: Player+Cam
   m_TagString: Untagged
@@ -68,7 +69,28 @@ MonoBehaviour:
   rotCam: {fileID: 5277244241589315844}
   playerInControl: 0
   startAnimSender: {fileID: 0}
-  startGameSender: {fileID: 0}
+  enableControlSender: {fileID: 0}
+  disableControlSender: {fileID: 0}
+  sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &6014049926539645095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722268604725077336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSounds: []
 --- !u!1001 &951752362440171928
 PrefabInstance:
   m_ObjectHideFlags: 0
