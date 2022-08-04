@@ -14,6 +14,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Tree_1Mat
     second: {fileID: 2100000, guid: 4e065583cb97a4a44836a6bdb69ae420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: no texture
+    second: {fileID: 2100000, guid: ad2397698831aee46a5a3eeba8432bca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sprite_0044
+    second: {fileID: 2100000, guid: 4e065583cb97a4a44836a6bdb69ae420, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -45,7 +55,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 2
+    globalScale: 1.3
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -98,7 +108,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.02
+    globalScale: 0.012999999
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
