@@ -2431,7 +2431,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 150792108}
-  - component: {fileID: 150792109}
   m_Layer: 0
   m_Name: Valla1 (3)
   m_TagString: Untagged
@@ -2464,42 +2463,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
---- !u!114 &150792109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150792107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 853328903}
-  - {fileID: 993806842}
-  - {fileID: 1112950563}
-  - {fileID: 501546972}
-  - {fileID: 405941115}
-  - {fileID: 4138376}
-  - {fileID: 824040979}
-  - {fileID: 901123235}
-  - {fileID: 1745752949}
-  - {fileID: 1013034572}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &157712033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,7 +3004,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 191763518}
-  - component: {fileID: 191763519}
   m_Layer: 0
   m_Name: Valla1 (9)
   m_TagString: Untagged
@@ -3070,38 +3032,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -89.916, z: 0}
---- !u!114 &191763519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191763517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 980146984}
-  - {fileID: 500463410}
-  - {fileID: 502616874}
-  - {fileID: 475380796}
-  - {fileID: 73695117}
-  - {fileID: 76580386}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &194614832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3245,7 +3175,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 195894990}
-  - component: {fileID: 195894991}
   m_Layer: 0
   m_Name: Valla1 (6)
   m_TagString: Untagged
@@ -3271,35 +3200,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -89.916, z: 0}
---- !u!114 &195894991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195894989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 317209993}
-  - {fileID: 683793738}
-  - {fileID: 266497330}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &198964406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5425,7 +5325,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398426823}
-  - component: {fileID: 398426824}
   m_Layer: 0
   m_Name: Valla1 (8)
   m_TagString: Untagged
@@ -5458,42 +5357,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -89.916, z: 0}
---- !u!114 &398426824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398426822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 130760142}
-  - {fileID: 1164893546}
-  - {fileID: 1695119588}
-  - {fileID: 1555663802}
-  - {fileID: 1067429656}
-  - {fileID: 183846471}
-  - {fileID: 486838718}
-  - {fileID: 1722855085}
-  - {fileID: 48686908}
-  - {fileID: 1018522221}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &405941113
 GameObject:
   m_ObjectHideFlags: 0
@@ -7066,7 +6929,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 579212317}
-  - component: {fileID: 579212318}
   m_Layer: 0
   m_Name: Valla4
   m_TagString: Untagged
@@ -7089,32 +6951,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
---- !u!114 &579212318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579212316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes: []
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &580911994
 GameObject:
   m_ObjectHideFlags: 0
@@ -7124,7 +6960,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 580911995}
-  - component: {fileID: 580911996}
   m_Layer: 0
   m_Name: Valla1
   m_TagString: Untagged
@@ -7155,40 +6990,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
---- !u!114 &580911996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580911994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 359689837}
-  - {fileID: 1152408430}
-  - {fileID: 121315859}
-  - {fileID: 2012819727}
-  - {fileID: 999027660}
-  - {fileID: 352566415}
-  - {fileID: 919129934}
-  - {fileID: 1755616079}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &586625154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7343,7 +7144,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 615777134}
-  - component: {fileID: 615777135}
   m_Layer: 0
   m_Name: Valla1 (4)
   m_TagString: Untagged
@@ -7376,42 +7176,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
---- !u!114 &615777135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615777133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 1071400758}
-  - {fileID: 1639358902}
-  - {fileID: 1722801223}
-  - {fileID: 586625156}
-  - {fileID: 1178803946}
-  - {fileID: 111159261}
-  - {fileID: 1014959231}
-  - {fileID: 1927464518}
-  - {fileID: 1202774639}
-  - {fileID: 1747606002}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &616021370
 GameObject:
   m_ObjectHideFlags: 0
@@ -7421,7 +7185,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 616021371}
-  - component: {fileID: 616021372}
   m_Layer: 0
   m_Name: Valla1 (7)
   m_TagString: Untagged
@@ -7454,42 +7217,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -89.916, z: 0}
---- !u!114 &616021372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616021370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 157712035}
-  - {fileID: 1860775331}
-  - {fileID: 1194166888}
-  - {fileID: 2060117723}
-  - {fileID: 1008434813}
-  - {fileID: 2138751714}
-  - {fileID: 1070612833}
-  - {fileID: 1418875067}
-  - {fileID: 174668135}
-  - {fileID: 962537149}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1001 &628042312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9270,7 +8997,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 778831859}
-  - component: {fileID: 778831860}
   m_Layer: 0
   m_Name: Valla1 (5)
   m_TagString: Untagged
@@ -9299,38 +9025,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
---- !u!114 &778831860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778831858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 1245707014}
-  - {fileID: 1173183261}
-  - {fileID: 30993158}
-  - {fileID: 1650514677}
-  - {fileID: 834133321}
-  - {fileID: 398092647}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &797587935
 GameObject:
   m_ObjectHideFlags: 0
@@ -15778,7 +15472,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1526631181}
-  - component: {fileID: 1526631182}
   m_Layer: 0
   m_Name: Valla1 (2)
   m_TagString: Untagged
@@ -15811,42 +15504,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
---- !u!114 &1526631182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526631180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 105166215}
-  - {fileID: 279565176}
-  - {fileID: 150422519}
-  - {fileID: 1759940635}
-  - {fileID: 339761019}
-  - {fileID: 2088535884}
-  - {fileID: 449791953}
-  - {fileID: 1969301369}
-  - {fileID: 566829993}
-  - {fileID: 2019808988}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &1528362101
 GameObject:
   m_ObjectHideFlags: 0
@@ -17059,7 +16716,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1675893372}
-  - component: {fileID: 1675893373}
   m_Layer: 0
   m_Name: Valla3
   m_TagString: Untagged
@@ -17082,32 +16738,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
---- !u!114 &1675893373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675893371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes: []
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &1686409810
 GameObject:
   m_ObjectHideFlags: 0
@@ -17322,7 +16952,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1702010823}
-  - component: {fileID: 1702010824}
   m_Layer: 0
   m_Name: Valla2
   m_TagString: Untagged
@@ -17345,32 +16974,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
---- !u!114 &1702010824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702010822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes: []
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &1708276478
 GameObject:
   m_ObjectHideFlags: 0
@@ -19417,7 +19020,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1937396528}
-  - component: {fileID: 1937396529}
   m_Layer: 0
   m_Name: Valla5
   m_TagString: Untagged
@@ -19448,40 +19050,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
---- !u!114 &1937396529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1937396527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 240077683}
-  - {fileID: 317238791}
-  - {fileID: 328439946}
-  - {fileID: 530812568}
-  - {fileID: 1528362103}
-  - {fileID: 2135934643}
-  - {fileID: 1035346261}
-  - {fileID: 1066364448}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1001 &1954983364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21105,7 +20673,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2123359702}
-  - component: {fileID: 2123359703}
   m_Layer: 0
   m_Name: Valla1 (10)
   m_TagString: Untagged
@@ -21138,42 +20705,6 @@ Transform:
   m_Father: {fileID: 1537418000}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0.083, z: 0}
---- !u!114 &2123359703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123359701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 1656705753}
-  - {fileID: 1839050038}
-  - {fileID: 426533167}
-  - {fileID: 672569172}
-  - {fileID: 110180257}
-  - {fileID: 1708276480}
-  - {fileID: 1573753031}
-  - {fileID: 56994184}
-  - {fileID: 942371196}
-  - {fileID: 85435910}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
 --- !u!1 &2135934641
 GameObject:
   m_ObjectHideFlags: 0
