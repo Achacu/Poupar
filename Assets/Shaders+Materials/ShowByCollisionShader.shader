@@ -35,6 +35,7 @@ Shader "Custom/ShowByCollisionShader"
         // Physically based Standard lighting model, and enable shadows on all light types
         //#pragma vertex vert
         #pragma surface surf Standard fullforwardshadows alpha:fade 
+        #pragma shader_feature _OCCLUSION_MAP
         
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0
@@ -82,8 +83,12 @@ Shader "Custom/ShowByCollisionShader"
         {
             // Albedo comes from a texture tinted by color
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-            fixed4 Occ = tex2D(_OcclusionMap, IN.uv_MainTex) * (1-_Occlusion);
-
+            fixed Occ; 
+            #if defined(_OCCLUSION_MAP)
+                Occ = lerp(1, tex2D(_OcclusionMap, IN.uv_MainTex).g, _Occlusion);
+            #else
+                Occ = 1;
+            #endif
             fixed dstToHitPoint = 0;
             bool closeToColPos = false; 
 
@@ -95,10 +100,9 @@ Shader "Custom/ShowByCollisionShader"
                 closeToColPos = (dstToHitPoint < _ColAreaRadius);
             }
             o.Alpha = (_OverrideAlpha >= 0)? _OverrideAlpha : 
-            (closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a));
-            
+            (closeToColPos? (max(_Colliding, _Sounding) * c.a) : (_Sounding * c.a));            
 
-            o.Albedo = c.rgb * Occ.rgb;
+            o.Albedo = c.rgb * Occ;
             // Metallic and smoothness come from slider variables
             o.Metallic = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).r * _Metallic;
             o.Smoothness = tex2D (_MetallicGlossMap, IN.uv_MetallicGlossMap).a * _Glossiness;
