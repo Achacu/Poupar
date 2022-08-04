@@ -16,8 +16,8 @@ Shader "Custom/ShowByColLeaves" {
         [HideInInspector] _TreeInstanceScale("TreeInstanceScale", Vector) = (1,1,1,1)
         [HideInInspector] _SquashAmount("Squash", Float) = 1
 
-        _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
-        _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
+        // _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
+        // _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
         _Colliding ("Colliding", Range(0,1)) = 0
         _ColPos ("Collision Position", Vector) = (0,0,0,0)
         _ColAreaRadius ("Collision Area Radius", Range(0,5)) = 1
@@ -39,8 +39,8 @@ Shader "Custom/ShowByColLeaves" {
         sampler2D _TranslucencyMap;
         half _Shininess;
 
-        fixed _LowerBlindTh;
-        fixed _UpperBlindTh;
+        // fixed _LowerBlindTh;
+        // fixed _UpperBlindTh;
         fixed _Colliding;
         fixed4 _ColPos;
         fixed _ColAreaRadius;

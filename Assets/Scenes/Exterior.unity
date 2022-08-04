@@ -571,15 +571,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1499828439
+      Data2: 1231756864
+      Data3: -899716974
+      Data4: -1895692738
+    Path: event:/Colisiones/Colision_interaccion_buxos
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &33724773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -655,6 +656,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &36009271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2633,7 +2635,7 @@ Transform:
   - {fileID: 1745752948}
   - {fileID: 1013034571}
   m_Father: {fileID: 1537418000}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
 --- !u!65 &150792109
 BoxCollider:
@@ -2675,15 +2677,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &157712033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,6 +3220,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &194614835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3376,15 +3380,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &198964406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,6 +3612,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!23 &213673598
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3667,7 +3673,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a0ed78d5583ab2f40a8554c9768a0328, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0ed78d5583ab2f40a8554c9768a0328, type: 3}
       propertyPath: m_LocalScale.x
@@ -4000,6 +4006,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!23 &251759541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5407,7 +5414,6 @@ Transform:
   m_Children:
   - {fileID: 2024372324}
   - {fileID: 228216931}
-  - {fileID: 1837320119}
   m_Father: {fileID: 664513423}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5454,6 +5460,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1001 &396898799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6230,6 +6237,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &479401534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7013,6 +7021,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!114 &560880062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7321,37 +7330,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566829991}
   m_Mesh: {fileID: 3522438675107357248, guid: 89ad346531019914b90886bbcf84ca61, type: 3}
---- !u!1 &579212316
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 579212317}
-  m_Layer: 0
-  m_Name: Valla4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &579212317
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579212316}
-  m_LocalRotation: {x: -0, y: 0.70762146, z: -0, w: 0.7065918}
-  m_LocalPosition: {x: 8.08, y: 1.4627084, z: 0.5100002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1537418000}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
 --- !u!1 &580911994
 GameObject:
   m_ObjectHideFlags: 0
@@ -7431,15 +7409,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &586625154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7626,7 +7605,7 @@ Transform:
   - {fileID: 1202774638}
   - {fileID: 1747606001}
   m_Father: {fileID: 1537418000}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
 --- !u!65 &615777135
 BoxCollider:
@@ -7668,15 +7647,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &616021370
 GameObject:
   m_ObjectHideFlags: 0
@@ -7769,15 +7749,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &616021373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7891,6 +7872,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 3
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &628042317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8012,6 +7994,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1001 &646953332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8087,7 +8070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6018e21ae240aa440beb2d64bed9ebd1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6018e21ae240aa440beb2d64bed9ebd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8442,6 +8425,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 3
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &681333640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9174,6 +9158,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!111 &717482407
 Animation:
   m_ObjectHideFlags: 0
@@ -9719,7 +9704,7 @@ Transform:
   - {fileID: 398092646}
   - {fileID: 266497329}
   m_Father: {fileID: 1537418000}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
 --- !u!114 &778831860
 MonoBehaviour:
@@ -9744,15 +9729,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &778831861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10330,6 +10316,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &901123233
 GameObject:
   m_ObjectHideFlags: 0
@@ -10625,6 +10612,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &933114400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11177,6 +11165,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &992058787 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 30da502d5475e9143a77ad3d49942acb, type: 3}
@@ -11221,6 +11210,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 3
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &992058791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12309,7 +12299,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6f7c6babf53e0514a8e0fc64bd1b88be, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f7c6babf53e0514a8e0fc64bd1b88be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13048,6 +13038,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &1100620620
 GameObject:
   m_ObjectHideFlags: 0
@@ -13444,6 +13435,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 3
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &1127509081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13526,6 +13518,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &1150095297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14150,6 +14143,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &1186986260
 GameObject:
   m_ObjectHideFlags: 0
@@ -14913,6 +14907,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!23 &1283730927 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1122427853962064952, guid: 24d92534bd423ec4c95ca568e9505203, type: 3}
@@ -15629,6 +15624,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &1411021095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16478,6 +16474,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!23 &1525956071 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 86d03a9ca9eb97f4eb0cf4bb1c0470ff, type: 3}
@@ -16524,7 +16521,7 @@ Transform:
   - {fileID: 566829992}
   - {fileID: 2019808987}
   m_Father: {fileID: 1537418000}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0.084, z: 0}
 --- !u!65 &1526631182
 BoxCollider:
@@ -16566,15 +16563,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &1528362101
 GameObject:
   m_ObjectHideFlags: 0
@@ -16734,9 +16732,6 @@ Transform:
   - {fileID: 195894990}
   - {fileID: 616021371}
   - {fileID: 580911995}
-  - {fileID: 1702010823}
-  - {fileID: 1675893372}
-  - {fileID: 579212317}
   - {fileID: 1937396528}
   - {fileID: 1526631181}
   - {fileID: 150792108}
@@ -17781,37 +17776,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661122645}
   m_CullTransparentMesh: 1
---- !u!1 &1675893371
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1675893372}
-  m_Layer: 0
-  m_Name: Valla3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1675893372
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675893371}
-  m_LocalRotation: {x: -0, y: 0.70762146, z: -0, w: 0.7065918}
-  m_LocalPosition: {x: 8.08, y: 1.4627084, z: 0.51}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1537418000}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
 --- !u!1 &1686409810
 GameObject:
   m_ObjectHideFlags: 0
@@ -17934,6 +17898,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &1695119586
 GameObject:
   m_ObjectHideFlags: 0
@@ -18017,37 +17982,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695119586}
   m_Mesh: {fileID: 7322393065529535420, guid: 89ad346531019914b90886bbcf84ca61, type: 3}
---- !u!1 &1702010822
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1702010823}
-  m_Layer: 0
-  m_Name: Valla2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1702010823
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702010822}
-  m_LocalRotation: {x: -0, y: 0.70762146, z: -0, w: 0.7065918}
-  m_LocalPosition: {x: 8.08, y: 1.4627084, z: 0.5100002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1537418000}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
 --- !u!1 &1708276478
 GameObject:
   m_ObjectHideFlags: 0
@@ -18774,6 +18708,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &1759940633
 GameObject:
   m_ObjectHideFlags: 0
@@ -19038,6 +18973,7 @@ Transform:
   - {fileID: 471202326}
   - {fileID: 664513423}
   - {fileID: 628501366}
+  - {fileID: 1837320119}
   - {fileID: 649753425}
   - {fileID: 1040731061}
   - {fileID: 1821676857}
@@ -19142,7 +19078,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5b4dc9019e463ac4c894db80119a8ad9, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b4dc9019e463ac4c894db80119a8ad9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19218,11 +19154,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 385062803}
+    m_TransformParent: {fileID: 1797662354}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a0ed78d5583ab2f40a8554c9768a0328, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0ed78d5583ab2f40a8554c9768a0328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19611,6 +19547,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1 &1860775329
 GameObject:
   m_ObjectHideFlags: 0
@@ -20115,6 +20052,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 3
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &1903012476
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20250,7 +20188,7 @@ Transform:
   - {fileID: 1035346260}
   - {fileID: 1066364447}
   m_Father: {fileID: 1537418000}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90.083, z: 0}
 --- !u!65 &1937396529
 BoxCollider:
@@ -20290,15 +20228,16 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1241003506
+      Data2: 1333853341
+      Data3: -487460727
+      Data4: 1965658746
+    Path: event:/Colisiones/Colision_madera_2
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!1001 &1953519210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20680,6 +20619,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!23 &1990466468 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 69f9c1651b41c5d4cbf1301f7e5bfc41, type: 3}
@@ -21157,6 +21097,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &2050039232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21773,6 +21714,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &2109684297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22054,6 +21996,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 3
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &2117694232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22189,7 +22132,7 @@ Transform:
   - {fileID: 942371195}
   - {fileID: 85435909}
   m_Father: {fileID: 1537418000}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0.083, z: 0}
 --- !u!1 &2135934641
 GameObject:
@@ -23780,6 +23723,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!23 &6977088241698305380
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24034,6 +23978,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0
 --- !u!65 &8155664809603689324
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -256,6 +256,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &58481073
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1888,6 +1889,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &713256328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 62327410e92c9d94281fc5790774385e, type: 3}
+  m_PrefabInstance: {fileID: 1722429991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &713256329 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 62327410e92c9d94281fc5790774385e, type: 3}
+  m_PrefabInstance: {fileID: 1722429991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &713256332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 713256329}
+  - {fileID: 1807655632}
+  minColPointSqrdSeparation: 0.2
+  colPosIndex: 0
+  colSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  sender: {fileID: 0}
+  setShaderAreaRadius: 0
+  perObjectAreaRadius: 1
+  fadeOutTime: 3
+  meshAlwaysActive: 0
+--- !u!65 &713256333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713256328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8599865, y: 1.9103196, z: 1.8460956}
+  m_Center: {x: -0.0024271607, y: 0.9551598, z: 0.04666832}
 --- !u!23 &737223866 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 533337040791460764, guid: 4863d591acc36e3438fdf97594a7fbae, type: 3}
@@ -2976,7 +3029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62327410e92c9d94281fc5790774385e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7
+      value: 7.13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62327410e92c9d94281fc5790774385e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2984,7 +3037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62327410e92c9d94281fc5790774385e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.01
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 62327410e92c9d94281fc5790774385e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3105,6 +3158,11 @@ PrefabInstance:
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 533337040791460764, guid: 4863d591acc36e3438fdf97594a7fbae, type: 3}
   m_PrefabInstance: {fileID: 1764737971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1807655632 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1122427853962064952, guid: 62327410e92c9d94281fc5790774385e, type: 3}
+  m_PrefabInstance: {fileID: 1722429991}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1821285633
 GameObject:
@@ -4816,6 +4874,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 1
+  meshAlwaysActive: 1
 --- !u!65 &5400263968027850275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5126,6 +5185,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 1
+  meshAlwaysActive: 0
 --- !u!65 &7689897447962365323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5636,6 +5696,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 1
+  meshAlwaysActive: 0
 --- !u!65 &8928304551185462424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5736,6 +5797,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 1
+  meshAlwaysActive: 0
 --- !u!65 &8997981116783199445
 BoxCollider:
   m_ObjectHideFlags: 0

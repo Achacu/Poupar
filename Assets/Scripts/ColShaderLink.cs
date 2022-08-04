@@ -20,6 +20,7 @@ public class ColShaderLink : MonoBehaviour
             meshes.AddRange(GetComponentsInChildren<MeshRenderer>());
             if (meshes[0] == null) meshes.RemoveAt(0);
         }
+        if (GetComponent<SoundShaderLink>()) meshAlwaysActive = true;
     }
     public void Awake()
     {
@@ -34,13 +35,13 @@ public class ColShaderLink : MonoBehaviour
 
     private float colExitTime = 0f;
     [SerializeField] private float fadeOutTime = 3f;
-
+    [SerializeField] private bool meshAlwaysActive = false;
     // Update is called once per frame
     void Update()
     {
         if (Time.time - colExitTime < fadeOutTime)
             SetShaderParams(1 - (Time.time - colExitTime) / fadeOutTime);
-        else if(!onCollision && meshes[0].enabled)
+        else if(!onCollision && meshes[0].enabled && !meshAlwaysActive)
         {
             for (int i = 0; i < meshes.Count; i++) meshes[i].enabled = false;
         }

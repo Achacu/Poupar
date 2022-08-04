@@ -7800,11 +7800,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -207969878
-      Data2: 1260407126
-      Data3: 774066581
-      Data4: 1888809700
-    Path: event:/Colisiones/Colision_sorda_pared_2
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -8793,11 +8793,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -207969878
-      Data2: 1260407126
-      Data3: 774066581
-      Data4: 1888809700
-    Path: event:/Colisiones/Colision_sorda_pared_2
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9592,11 +9592,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -207969878
-      Data2: 1260407126
-      Data3: 774066581
-      Data4: 1888809700
-    Path: event:/Colisiones/Colision_sorda_pared_2
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -9656,11 +9656,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -207969878
-      Data2: 1260407126
-      Data3: 774066581
-      Data4: 1888809700
-    Path: event:/Colisiones/Colision_sorda_pared_2
+      Data1: 2113765836
+      Data2: 1144441775
+      Data3: -1384488286
+      Data4: -1048784237
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 1954827780}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1

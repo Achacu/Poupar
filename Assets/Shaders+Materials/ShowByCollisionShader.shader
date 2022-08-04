@@ -11,8 +11,8 @@ Shader "Custom/ShowByCollisionShader"
         _Occlusion("Occlusion", Range(0,1)) = 0.0
         _OcclusionMap ("Occlusion Map", 2D) = "white" {}
 
-        _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
-        _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
+        // _UpperBlindTh ("Upper Blind Threshold", Range(0,20)) = 5.0        
+        // _LowerBlindTh ("Lower Blind Threshold", Range(0,20)) = 5.0
         _Colliding ("Colliding", Range(0,1)) = 0
         _Sounding ("Sounding", Range(0,1)) = 0
         //_ColPos ("Collision Position", Vector) = (0,0,0,0)
@@ -57,8 +57,8 @@ Shader "Custom/ShowByCollisionShader"
         half _Metallic;
         half _Occlusion;
         fixed4 _Color;
-        fixed _LowerBlindTh;
-        fixed _UpperBlindTh;
+        // fixed _LowerBlindTh;
+        // fixed _UpperBlindTh;
 
         fixed _Colliding;
         fixed _Sounding;
