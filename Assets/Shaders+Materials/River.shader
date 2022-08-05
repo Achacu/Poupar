@@ -79,9 +79,7 @@ Shader "FX/Waterfall" {
 	 #if VERTEX // use vertex colors for flow
 			 float3 flowDir = (vertexColors * 2.0f) - 1.0f;
 	 #else // or world normal
-			 //float3 flowDir = -(worldNormal * 2.0f) - 1.0f;
-			 float3 flowDir = uv0;
-			 //float3 flowDir = -(worldNormal * 2.0f) - 1.0f;
+			 float3 flowDir = -(worldNormal * 2.0f) - 1.0f;
 	 #endif
 			 // horizontal flow speed
 			 flowDir *= _HorSpeed;
