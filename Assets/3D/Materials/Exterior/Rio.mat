@@ -90,11 +90,11 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Height: 0.1
-    - _HorSpeed: 0.45
+    - _HorSpeed: 1.45
     - _LowerBlindTh: 5
     - _Metallic: 0
     - _Mode: 0
-    - _NoiseScale: 0.38
+    - _NoiseScale: 0.737
     - _Occlusion: 0
     - _OcclusionStrength: 1
     - _OverrideAlpha: 1
@@ -110,12 +110,12 @@ Material:
     - _SpeedV: 0.5
     - _SrcBlend: 1
     - _Stretch: 2
-    - _TopScale: 0.21
+    - _TopScale: 0.505
     - _TopSpread: 0.78
     - _UVSec: 0
     - _UpperBlindTh: 5
     - _VERTEX: 0
-    - _VertSpeed: 0.86
+    - _VertSpeed: 4.67
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
