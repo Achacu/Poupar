@@ -59,7 +59,7 @@ public class ColShaderLink : MonoBehaviour
         for(int i=0; i < colPoints.Length;i++) colPoints[i] = Vector4.zero; //resets colPos for this obj
 
         colExitTime = Time.time - fadeOutTime; //stops fade out
-        print("collided with: " +collision.gameObject.name);
+        //print("collided with: " +collision.gameObject.name);
 
         colPoints[colPosIndex] = collision.GetContact(0).point;
         colPosIndex++;

@@ -2581,6 +2581,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
+      propertyPath: pensamentosTriggers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
       propertyPath: screensData.Array.data[0].screen
       value: 
       objectReference: {fileID: 1608627545}
@@ -2608,6 +2612,22 @@ PrefabInstance:
       propertyPath: screensData.Array.data[3].sender
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
+      propertyPath: pensamentosTriggers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1954827780}
+    - target: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
+      propertyPath: pensamentosTriggers.Array.data[1]
+      value: 
+      objectReference: {fileID: 6192697233977599757}
+    - target: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
+      propertyPath: pensamentosTriggers.Array.data[2]
+      value: 
+      objectReference: {fileID: 9202220773104775134}
+    - target: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
+      propertyPath: pensamentosTriggers.Array.data[3]
+      value: 
+      objectReference: {fileID: 1820482110}
     - target: {fileID: 2453734373839327704, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
       propertyPath: screensData.Array.data[1].waitTime
       value: 3

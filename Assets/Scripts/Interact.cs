@@ -34,7 +34,7 @@ public class Interact : MonoBehaviour
     {
         if (canInteract)
         {
-            print("interacted!");
+            //print("interacted!");
             lastInteractable?.Interact();
         }
         //else print("can't interact");
@@ -60,7 +60,7 @@ public class Interact : MonoBehaviour
                     canInteract = true;
                     //print("started interact: "+canInteract);                    
                 }
-                lastInteractable = hit.collider.GetComponent<Interactable>();
+                lastInteractable = hit.collider.GetComponent<Interactable>();                
             }
             else
             {

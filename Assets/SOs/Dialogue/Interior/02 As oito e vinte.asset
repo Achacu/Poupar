@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 02 As oito e vinte
   m_EditorClassIdentifier: 
-  line: "As oito e vinte. Mesmo cos tronos durmiu m\xE1is que decot\xEDo."
+  line: "As oito e cinco. Mesmo cos tronos durmiu m\xE1is que decot\xEDo."
   duration: 3.5

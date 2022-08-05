@@ -28,17 +28,41 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private ScreenData[] screensData;
     [SerializeField] private GameObject blockingPanel;
+    [SerializeField, ContextMenuItem("ResetThoughts", "ResetThoughts")] private List<EventSender> pensamentosTriggers;
+    private void ResetThoughts()
+    {
+        for(int i = 0; i < pensamentosTriggers.Count; i++)
+        {
+            PlayerPrefs.SetInt("Pensamento" + SceneManager.GetActiveScene().buildIndex + i, 0);
+        }
+    }
+
 
     public void OnEnable()
     {
+        foreach (EventSender s in pensamentosTriggers)
+        {
+            if (s) s.OnActivate += RecordPensamento;
+        }
+
         CharMove.OnEscapePressed += TogglePauseMenu;
         if(nextSceneSender)nextSceneSender.OnActivate += NextScreen;
         Time.timeScale = 1;
     }
+
+
     public void OnDisable()
     {
+        foreach (EventSender s in pensamentosTriggers)
+        {
+            if (s) s.OnActivate -= RecordPensamento;
+        }
         CharMove.OnEscapePressed -= TogglePauseMenu;
         if (nextSceneSender) nextSceneSender.OnActivate -= NextScreen;
+    }
+    private void RecordPensamento(EventSender obj)
+    {
+        PlayerPrefs.SetInt("Pensamento" + SceneManager.GetActiveScene().buildIndex + pensamentosTriggers.IndexOf(obj),1);
     }
 
     [SerializeField] private GameObject pauseMenu;
@@ -138,7 +162,6 @@ public class UIManager : MonoBehaviour
         }
         if(!fadeIn) screen.gameObject.SetActive(false);
     }
-
     public static void SetBusVolume(VolumeSlider.SliderType type, float value)
     {        
         string busName = (type == VolumeSlider.SliderType.Music) ? "Musica" : "FX";
