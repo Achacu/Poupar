@@ -1,5 +1,9 @@
 Shader "FX/Waterfall" {
 	Properties{
+				_FlowDirX("FlowDirX", Range(-1,1)) = 0
+				_FlowDirZ("FlowDirZ", Range(-1,1)) = 0
+				_Sounding("Sounding", Range(0,1)) = 0
+
 		[Space]
 		[Header(Water)]
 		_TColor("Top Water Tint", Color) = (0,1,1,1)
@@ -65,6 +69,7 @@ Shader "FX/Waterfall" {
 			 fixed4 _FoamColor, _WaterColor, _RimColor,  _TColor;
 			 fixed _HorSpeed, _TopScale, _TopSpread, _EdgeWidth, _RimPower,_NoiseScale , _VertSpeed;
 			 float _BrightNess, _Foam, _Softness;
+			float _FlowDirX, _FlowDirZ, _Sounding;
 
 			 void surf(Input IN, inout SurfaceOutputStandard o) {
 
@@ -79,7 +84,7 @@ Shader "FX/Waterfall" {
 	 #if VERTEX // use vertex colors for flow
 			 float3 flowDir = (vertexColors * 2.0f) - 1.0f;
 	 #else // or world normal
-			 float3 flowDir = -(worldNormal * 2.0f) - 1.0f;
+			 float3 flowDir = float3(_FlowDirX,0,_FlowDirZ);//-(worldNormal * 2.0f) - 1.0f;
 	 #endif
 			 // horizontal flow speed
 			 flowDir *= _HorSpeed;
@@ -136,7 +141,7 @@ Shader "FX/Waterfall" {
 			 o.Emission = combinedFoam + colorRim;
 
 			 // clamped alpha
-			 o.Alpha = clamp(color.a + combinedFoam + foamLine.a, 0, 1);
+			 o.Alpha = clamp((color.a + combinedFoam + foamLine.a)*_Sounding, 0, 1);
 
 
 			 }

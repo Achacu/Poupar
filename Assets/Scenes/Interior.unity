@@ -481,6 +481,10 @@ PrefabInstance:
       propertyPath: dialogueGroups.Array.data[5].trigger
       value: 
       objectReference: {fileID: 9023302338404594722}
+    - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7915128794809653360, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2756,10 +2760,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6669027132472771949, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7713269946707616888, guid: 65b5e6936fb7e4f42adfab3a31a23f1f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3581,6 +3581,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &1098274865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4284,6 +4285,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &1435204124
 GameObject:
   m_ObjectHideFlags: 0
@@ -5092,6 +5094,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &1947603157
 GameObject:
   m_ObjectHideFlags: 0
@@ -5516,6 +5519,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &2093592635
 GameObject:
   m_ObjectHideFlags: 0
@@ -5880,6 +5884,7 @@ MonoBehaviour:
   setShaderAreaRadius: 1
   perObjectAreaRadius: 2
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &252785204511681997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7809,6 +7814,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &3875533070568463889
 GameObject:
   m_ObjectHideFlags: 0
@@ -7964,6 +7970,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!33 &4192881415238917027
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8802,6 +8809,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &6134651006382752938
 GameObject:
   m_ObjectHideFlags: 0
@@ -8950,6 +8958,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 1
 --- !u!114 &6192697233977599760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8996,7 +9005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9113877611811691489}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.21894634, y: 0.13950437, z: -0.6827283}
+  m_LocalPosition: {x: -0.059, y: 0.13950437, z: -0.6827283}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9293,6 +9302,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!23 &6527874313250077628
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9601,6 +9611,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!4 &6955588979830462199
 Transform:
   m_ObjectHideFlags: 0
@@ -9665,6 +9676,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!33 &7091748730580437968
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9775,6 +9787,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!33 &7206532538987989399
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9863,6 +9876,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &7263042351470575913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10016,6 +10030,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!33 &7557718327196217272
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10178,6 +10193,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!4 &7560875036327682652
 Transform:
   m_ObjectHideFlags: 0
@@ -10344,6 +10360,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &7796926892719878570
 GameObject:
   m_ObjectHideFlags: 0
@@ -10425,6 +10442,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!4 &7825696027416349463
 Transform:
   m_ObjectHideFlags: 0
@@ -10693,6 +10711,7 @@ MonoBehaviour:
   setShaderAreaRadius: 1
   perObjectAreaRadius: 2
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!4 &8181523976416920081
 Transform:
   m_ObjectHideFlags: 0
@@ -10841,6 +10860,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &8447258244821320883
 GameObject:
   m_ObjectHideFlags: 0
@@ -10901,6 +10921,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!1 &8482942047837854875
 GameObject:
   m_ObjectHideFlags: 0
@@ -10968,6 +10989,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!114 &8482942047837854878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10998,6 +11020,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 1
+  meshAlwaysActive: 0
 --- !u!1 &8548190875009504210
 GameObject:
   m_ObjectHideFlags: 0
@@ -11152,6 +11175,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!65 &8756997335252521261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11343,6 +11367,7 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0
 --- !u!23 &9103373307302193350
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11508,3 +11533,4 @@ MonoBehaviour:
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 4
+  meshAlwaysActive: 0

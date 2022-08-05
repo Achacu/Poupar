@@ -3,7 +3,42 @@ guid: e2f7c824bb719e8479e5ad6f03bcd8ce
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rio1
+    second: {fileID: 2100000, guid: af8db7409f291274ba6c86e9b8c4ccf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rio2
+    second: {fileID: 2100000, guid: 3ee236890d111704d96fb6aa2b67f00b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rio3
+    second: {fileID: 2100000, guid: 1627776a183d07b4c86fa44d74d9d6b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rio4
+    second: {fileID: 2100000, guid: b6ee882c63fa46e47962a75925674b35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rio5
+    second: {fileID: 2100000, guid: 991d4ab335d293b4fbbd8fe746726412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rio6
+    second: {fileID: 2100000, guid: db425ee99d7941443a0cd2a7f63af373, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rio7
+    second: {fileID: 2100000, guid: 0ea462506c79b6240b723ded7a181749, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

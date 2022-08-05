@@ -49,6 +49,7 @@ public class Interact : MonoBehaviour
         }
         while(true)
         {
+            if (Time.timeScale == 0) yield return waitTime;
             RaycastHit hit;
             //Debug.DrawLine(camT.position, camT.position + camT.forward * maxInteractRayDst, Color.white, 1);
             if(Physics.Raycast(camT.position, camT.forward, out hit, maxInteractRayDst, interactMask))

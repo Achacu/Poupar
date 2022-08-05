@@ -388,6 +388,7 @@ MonoBehaviour:
   isPaused: 0
   screenIndex: 0
   nextSceneSender: {fileID: 0}
+  automaticSceneLoad: 1
   fadeOutTime: 1
   fadeInTime: 1
 --- !u!1 &3118835869479272784
@@ -950,7 +951,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1524959088830975579}
         m_TargetAssemblyTypeName: VolumeSlider, Assembly-CSharp
         m_MethodName: SetVolume
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
