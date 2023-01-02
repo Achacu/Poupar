@@ -8987,35 +8987,6 @@ MonoBehaviour:
   perObjectAreaRadius: 5
   fadeOutTime: 3
   meshAlwaysActive: 0
---- !u!114 &628501372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127186135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 628501367}
-  - {fileID: 933277637}
-  minColPointSqrdSeparation: 0.2
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 145572089
-      Data2: 1319000000
-      Data3: 138829706
-      Data4: -823345344
-    Path: event:/Colisiones/Colison_arbol
-  sender: {fileID: 0}
-  setShaderAreaRadius: 1
-  perObjectAreaRadius: 5
-  fadeOutTime: 3
-  meshAlwaysActive: 0
 --- !u!1 &635341165
 GameObject:
   m_ObjectHideFlags: 0
@@ -9169,6 +9140,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6018e21ae240aa440beb2d64bed9ebd1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 121712793109757091, guid: 6018e21ae240aa440beb2d64bed9ebd1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6018e21ae240aa440beb2d64bed9ebd1, type: 3}
       propertyPath: m_Name
@@ -22867,35 +22842,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4340286, y: 3.0959992, z: 1.2564254}
   m_Center: {x: -0.02866745, y: 1.5479996, z: -0.037381887}
---- !u!114 &1759918762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759918758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b00eeb9a03fff48aefd3ecef2f4b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  meshes:
-  - {fileID: 1759918759}
-  - {fileID: 730894391}
-  minColPointSqrdSeparation: 0.5
-  colPosIndex: 0
-  colSound:
-    Guid:
-      Data1: 145572089
-      Data2: 1319000000
-      Data3: 138829706
-      Data4: -823345344
-    Path: event:/Colisiones/Colison_arbol
-  sender: {fileID: 0}
-  setShaderAreaRadius: 0
-  perObjectAreaRadius: 1
-  fadeOutTime: 3
-  meshAlwaysActive: 0
 --- !u!114 &1759918764
 MonoBehaviour:
   m_ObjectHideFlags: 0

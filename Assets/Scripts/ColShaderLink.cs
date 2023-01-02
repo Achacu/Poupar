@@ -45,6 +45,8 @@ public class ColShaderLink : MonoBehaviour
         else if(!onCollision && meshes[0].enabled && !meshAlwaysActive)
         {
             for (int i = 0; i < meshes.Count; i++) meshes[i].enabled = false;
+            for (int i = 0; i < colPoints.Length; i++) colPoints[i] = Vector4.zero; //resets colPos for this obj
+            colPosIndex = 0;
         }
     }
     private bool onCollision = false;
@@ -53,10 +55,7 @@ public class ColShaderLink : MonoBehaviour
         onCollision = true;
 
         if(sender) sender.TriggerEvent(true);
-        FMODUnity.RuntimeManager.PlayOneShot(colSound, collision.GetContact(0).point);
-        
-        colPosIndex = 0;
-        for(int i=0; i < colPoints.Length;i++) colPoints[i] = Vector4.zero; //resets colPos for this obj
+        FMODUnity.RuntimeManager.PlayOneShot(colSound, collision.GetContact(0).point);       
 
         colExitTime = Time.time - fadeOutTime; //stops fade out
         //print("collided with: " +collision.gameObject.name);
