@@ -6,7 +6,7 @@ public class ColShaderLink : MonoBehaviour
 {
     [SerializeField] private List<MeshRenderer> meshes = new List<MeshRenderer>();
     [SerializeField] private float minColPointSqrdSeparation = 0.2f;
-    [SerializeField]private Vector4[] colPoints = new Vector4[15];
+    /*[SerializeField]*/private Vector4[] colPoints = new Vector4[15];
     [SerializeField] private int colPosIndex = 0;
     [SerializeField] private FMODUnity.EventReference colSound;
     [SerializeField] private EventSender sender;
