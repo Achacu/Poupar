@@ -598,6 +598,9 @@
             "m_Id": "e0b2cf4b2d2a401ea73016398df3d66c"
         },
         {
+            "m_Id": "f14ce64a2cca45478e1a60eb08f6d3c9"
+        },
+        {
             "m_Id": "d488ccb1caf544579de12bec4f47ebdc"
         }
     ],
@@ -610,10 +613,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"467f1403d39d97e41a34b8f3d49499fd\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "019b5a62-481a-4de5-b745-aa37e976d6e2"
+        "019b5a62-481a-4de5-b745-aa37e976d6e2",
+        "0008a14d-2284-4915-89d9-372fc25eab52"
     ],
     "m_PropertyIds": [
-        -1727913690
+        -1727913690,
+        880870530
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -2903,6 +2908,20 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "f14ce64a2cca45478e1a60eb08f6d3c9",
+    "m_Id": 880870530,
+    "m_DisplayName": "isNoise3D",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_isNoise3D",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
 }
 
 {

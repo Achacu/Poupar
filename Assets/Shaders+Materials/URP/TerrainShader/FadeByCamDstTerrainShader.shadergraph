@@ -8216,6 +8216,20 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "a8062a1a560d470c8111725c3b7e336f",
+    "m_Id": 880870530,
+    "m_DisplayName": "isNoise3D",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_isNoise3D",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a8087a42edfe3c89ba8501f21a97a9e2",
     "m_Id": 4,
@@ -9523,6 +9537,9 @@
             "m_Id": "ee3430fc533841e7a018686c50439f41"
         },
         {
+            "m_Id": "a8062a1a560d470c8111725c3b7e336f"
+        },
+        {
             "m_Id": "770a5177707b43ae8367b74f20775cc1"
         }
     ],
@@ -9535,10 +9552,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"467f1403d39d97e41a34b8f3d49499fd\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "019b5a62-481a-4de5-b745-aa37e976d6e2"
+        "019b5a62-481a-4de5-b745-aa37e976d6e2",
+        "0008a14d-2284-4915-89d9-372fc25eab52"
     ],
     "m_PropertyIds": [
-        -1727913690
+        -1727913690,
+        880870530
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
