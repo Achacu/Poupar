@@ -39,7 +39,7 @@ public class SoundPlayer : MonoBehaviour
         PlaySound(null);   
     }
     private FMOD.Studio.EventInstance activeSoundInstance;
-    public event Action<FMOD.Studio.EventInstance> OnPlaySound = delegate { };
+    public event Action<FMOD.Studio.EventInstance, SoundPlayer> OnPlaySound = delegate { };
     private void PlaySound(EventSender sender)
     {
         for(int i = 0; i < eventSounds.Length; i++)
@@ -64,7 +64,7 @@ public class SoundPlayer : MonoBehaviour
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(activeSoundInstance, transform);
         activeSoundInstance.start();
 
-        OnPlaySound.Invoke(activeSoundInstance);
+        OnPlaySound.Invoke(activeSoundInstance, this);
     }
 
 
