@@ -2650,6 +2650,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86d03a9ca9eb97f4eb0cf4bb1c0470ff, type: 3}
+--- !u!1 &134565161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134565162}
+  - component: {fileID: 134565163}
+  m_Layer: 0
+  m_Name: RiverSoundSource (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134565162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134565161}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 29.09, y: 2.32, z: -29.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1931892698}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134565163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134565161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSounds:
+  - sender: {fileID: 0}
+    sound:
+      Guid:
+        Data1: -1123709928
+        Data2: 1154883744
+        Data3: 1404360594
+        Data4: -2094591196
+      Path: "event:/Objetos 3D/R\xEDo"
 --- !u!1 &142057088
 GameObject:
   m_ObjectHideFlags: 0
@@ -7160,7 +7213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475200396}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.86, y: 1.9, z: -31.53}
+  m_LocalPosition: {x: 17.18, y: 1.9, z: -21.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10747,7 +10800,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPlayer: {fileID: 1066566513}
-  soundPlayers: []
+  soundPlayers:
+  - {fileID: 1066566513}
   meshes:
   - {fileID: 560359890}
   - {fileID: 560359889}
@@ -10795,7 +10849,7 @@ MonoBehaviour:
   - {fileID: 728170284}
   - {fileID: 1307574206}
   - {fileID: 1842551559}
-  maxValue: 0.02
+  maxValue: 0.017
   minValue: 0.00001
   maxDecrease: 0.005
   maxIncrease: 0.005
@@ -10938,15 +10992,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPlayer: {fileID: 1632517773}
-  soundPlayers: []
+  soundPlayers:
+  - {fileID: 1632517773}
   meshes:
   - {fileID: 1051973096}
   - {fileID: 1878502550}
   - {fileID: 2102233829}
-  maxValue: 0.05
+  maxValue: 0.03
   minValue: 0.00001
   maxDecrease: 0.005
-  maxIncrease: 0.005
+  maxIncrease: 1
   hasOwnDitherScale: 1
   ownDitherScale: 1
 --- !u!1 &778831858
@@ -13272,7 +13327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953505949}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.72, y: 1.4, z: -44.3}
+  m_LocalPosition: {x: 2.63, y: 2.05, z: -46.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17039,6 +17094,59 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194166886}
   m_Mesh: {fileID: 7322393065529535420, guid: 89ad346531019914b90886bbcf84ca61, type: 3}
+--- !u!1 &1194836101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1194836103}
+  - component: {fileID: 1194836102}
+  m_Layer: 0
+  m_Name: RiverSoundSource (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1194836102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194836101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59d3a4c11ef1cb44b47d287b4fc70b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSounds:
+  - sender: {fileID: 0}
+    sound:
+      Guid:
+        Data1: -1123709928
+        Data2: 1154883744
+        Data3: 1404360594
+        Data4: -2094591196
+      Path: "event:/Objetos 3D/R\xEDo"
+--- !u!4 &1194836103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194836101}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 17.361, y: 3.138, z: -41.234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1931892698}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1201276265 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 86d03a9ca9eb97f4eb0cf4bb1c0470ff, type: 3}
@@ -21700,7 +21808,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675945587}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.84, y: 1.9, z: -17.2}
+  m_LocalPosition: {x: 6.49, y: 1.9, z: -11.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24851,12 +24959,14 @@ MonoBehaviour:
   - {fileID: 953505951}
   - {fileID: 475200397}
   - {fileID: 1675945588}
+  - {fileID: 1194836102}
+  - {fileID: 134565163}
   meshes:
   - {fileID: 1931892700}
-  maxValue: 0.01
-  minValue: 0.00001
-  maxDecrease: 0.005
-  maxIncrease: 1
+  maxValue: 0.03
+  minValue: 0
+  maxDecrease: 0.001
+  maxIncrease: 0.001
   hasOwnDitherScale: 0
   ownDitherScale: 10
 --- !u!1 &1937396527
@@ -28605,7 +28715,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPlayer: {fileID: 885378837}
-  soundPlayers: []
+  soundPlayers:
+  - {fileID: 885378837}
   meshes:
   - {fileID: 3416221836760686223}
   - {fileID: 8851889755882877141}
@@ -29343,7 +29454,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPlayer: {fileID: 1678777711}
-  soundPlayers: []
+  soundPlayers:
+  - {fileID: 1678777711}
   meshes:
   - {fileID: 2742682579981486872}
   - {fileID: 3165918248047760846}
@@ -29503,7 +29615,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPlayer: {fileID: 2140022187}
-  soundPlayers: []
+  soundPlayers:
+  - {fileID: 2140022187}
   meshes:
   - {fileID: 6326479515386085038}
   - {fileID: 3465843877583100472}

@@ -87,7 +87,7 @@ public class SoundShaderLink : MonoBehaviour
 
             lastValues[i] = currentValue;
 
-            print(i+" currentValue: " + currentValue);
+            //print(i+" currentValue: " + currentValue);
             yield return null;
         }
     }
@@ -96,7 +96,8 @@ public class SoundShaderLink : MonoBehaviour
     {
         currentValue = 0;
         for (int i = 0; i < lastValues.Length; i++) currentValue += lastValues[i];
-        print("currentValue: "+currentValue);
+        currentValue = Mathf.Min(currentValue, 1); //can't be bigger than 1
+        //print("currentValue: "+currentValue);
 
         for (int i = 0; i < meshes.Count; i++) meshes[i].material.SetFloat("_Sounding", currentValue);
     }
