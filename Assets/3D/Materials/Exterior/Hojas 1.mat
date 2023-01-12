@@ -100,10 +100,11 @@ Material:
     - _Colliding: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DitherScale: 10
     - _DitherSize: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.078125
     - _GlossyReflections: 1
     - _LowerBlindTh: 5
     - _Metallic: 0
@@ -124,6 +125,16 @@ Material:
     - _UpperBlindTh: 5
     - _ZWrite: 1
     m_Colors:
+    - _ColPoint_0: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_1: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_2: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_3: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_4: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_5: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_6: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_7: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_8: {r: 0, g: 0, b: 0, a: 0}
+    - _ColPoint_9: {r: 0, g: 0, b: 0, a: 0}
     - _ColPos: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.6981132, g: 0.46143535, b: 0.08891065, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -8,6 +8,7 @@ public class Interact : MonoBehaviour
     public static event Action<bool> OnCanInteractChange = delegate { };
     private bool canInteract = false;
     [SerializeField] private float interactCheckDelta = 1f;
+    [SerializeField] public LayerMask obstructionMask;
     [SerializeField] private LayerMask interactMask;
     [SerializeField] private Transform camT;
     [SerializeField] private float maxInteractRayDst = 1f;
@@ -52,9 +53,10 @@ public class Interact : MonoBehaviour
             if (Time.timeScale == 0) yield return waitTime;
             RaycastHit hit;
             //Debug.DrawLine(camT.position, camT.position + camT.forward * maxInteractRayDst, Color.white, 1);
-            if(Physics.Raycast(camT.position, camT.forward, out hit, maxInteractRayDst, interactMask))
+            if(Physics.Raycast(camT.position, camT.forward, out hit, maxInteractRayDst, interactMask) &&
+                !Physics.Raycast(camT.position, camT.forward, out RaycastHit hit2, hit.distance, obstructionMask, QueryTriggerInteraction.Ignore))
             {
-                if(!canInteract)
+                if (!canInteract)
                 {
                     OnCanInteractChange(true);
                     canInteract = true;
@@ -64,6 +66,7 @@ public class Interact : MonoBehaviour
             }
             else
             {
+                lastInteractable = null;
                 if (canInteract)
                 {
                     OnCanInteractChange(false);

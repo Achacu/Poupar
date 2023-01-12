@@ -163,6 +163,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactCheckDelta: 0.1
+  obstructionMask:
+    serializedVersion: 2
+    m_Bits: 129
   interactMask:
     serializedVersion: 2
     m_Bits: 64
