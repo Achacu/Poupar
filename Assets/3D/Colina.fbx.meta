@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 0039b60f0adf37a4981cbe55eccef2f3
+guid: 379f8ca47eaf0884e91d27395518220c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ColinaMat
-    second: {fileID: 2100000, guid: c59bb6b910610834896f2a5b1c9e2117, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
