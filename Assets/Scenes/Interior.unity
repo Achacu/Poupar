@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 1327777727}
   m_IndirectSpecularColor: {r: 0.46635306, g: 0.5600986, b: 0.6074922, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -9487,6 +9487,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPlayer: {fileID: 6192697233977599755}
+  soundPlayers:
+  - {fileID: 6192697233977599755}
   meshes:
   - {fileID: 1735049810605735471}
   - {fileID: 2320631571479423770}
@@ -9494,6 +9496,9 @@ MonoBehaviour:
   maxValue: 0.1
   minValue: 0.00001
   maxDecrease: 0.005
+  maxIncrease: 1
+  hasOwnDitherScale: 0
+  ownDitherScale: 10
 --- !u!1 &6211948086272409204
 GameObject:
   m_ObjectHideFlags: 0
