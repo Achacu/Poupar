@@ -116,12 +116,13 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
     Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
   fadeOutTime: 3
+  meshAlwaysActive: 0

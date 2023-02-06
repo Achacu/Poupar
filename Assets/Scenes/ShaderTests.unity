@@ -244,19 +244,13 @@ MonoBehaviour:
   meshes:
   - {fileID: 58481074}
   minColPointSqrdSeparation: 0.2
-  colPoints:
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
     Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -1438,12 +1432,6 @@ MonoBehaviour:
   - {fileID: 713256329}
   - {fileID: 1807655632}
   minColPointSqrdSeparation: 0.2
-  colPoints:
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
   colPosIndex: 0
   colSound:
     Guid:
@@ -1552,6 +1540,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &979384397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,12 +3728,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPlayer: {fileID: 5400263968027850272}
+  soundPlayers:
+  - {fileID: 5400263968027850272}
   meshes:
   - {fileID: 510407287658000189}
   - {fileID: 4554823928957450760}
   maxValue: 0.1
   minValue: 0.00001
   maxDecrease: 0.003
+  maxIncrease: 1
+  hasOwnDitherScale: 0
+  ownDitherScale: 10
 --- !u!114 &5400263968027850274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3761,19 +3755,13 @@ MonoBehaviour:
   - {fileID: 510407287658000189}
   - {fileID: 4554823928957450760}
   minColPointSqrdSeparation: 0.5
-  colPoints:
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
     Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -4078,19 +4066,13 @@ MonoBehaviour:
   - {fileID: 2017850940062110725}
   - {fileID: 4385484539885267019}
   minColPointSqrdSeparation: 0.5
-  colPoints:
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
     Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -4489,19 +4471,13 @@ MonoBehaviour:
   meshes:
   - {fileID: 8928304551185462421}
   minColPointSqrdSeparation: 0.5
-  colPoints:
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
     Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -4596,19 +4572,13 @@ MonoBehaviour:
   meshes:
   - {fileID: 8997981116783199443}
   minColPointSqrdSeparation: 0.5
-  colPoints:
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
-  - {x: 0, y: 0, z: 0, w: 0}
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
     Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0

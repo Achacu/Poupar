@@ -659,10 +659,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -1499828439
-      Data2: 1231756864
-      Data3: -899716974
-      Data4: -1895692738
+      Data1: 599144690
+      Data2: 1191581844
+      Data3: -808754794
+      Data4: 1760367926
     Path: event:/Colisiones/Colision_interaccion_buxos
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -5630,10 +5630,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -5658,10 +5658,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -5686,10 +5686,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -12307,10 +12307,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -1499828439
-      Data2: 1231756864
-      Data3: -899716974
-      Data4: -1895692738
+      Data1: 599144690
+      Data2: 1191581844
+      Data3: -808754794
+      Data4: 1760367926
     Path: event:/Colisiones/Colision_interaccion_buxos
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -15572,7 +15572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 379f8ca47eaf0884e91d27395518220c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 379f8ca47eaf0884e91d27395518220c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -15580,11 +15580,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 379f8ca47eaf0884e91d27395518220c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 379f8ca47eaf0884e91d27395518220c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 379f8ca47eaf0884e91d27395518220c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15592,7 +15592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 379f8ca47eaf0884e91d27395518220c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 379f8ca47eaf0884e91d27395518220c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -16393,10 +16393,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 52908339}
   setShaderAreaRadius: 0
@@ -16426,10 +16426,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -16888,6 +16888,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!114 &1360598775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18382,10 +18383,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 52908339}
   setShaderAreaRadius: 0
@@ -21697,10 +21698,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -23450,7 +23451,7 @@ MonoBehaviour:
   maxValue: 0.03
   minValue: 0
   maxDecrease: 0.001
-  maxIncrease: 0.001
+  maxIncrease: 0.01
   hasOwnDitherScale: 0
   ownDitherScale: 10
 --- !u!1 &1937396527
@@ -24999,19 +25000,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869598748375194770, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: footstepsRef.Guid.Data1
-      value: 116366370
+      value: -1595624354
       objectReference: {fileID: 0}
     - target: {fileID: 3869598748375194770, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: footstepsRef.Guid.Data2
-      value: 1125411952
+      value: 1190229416
       objectReference: {fileID: 0}
     - target: {fileID: 3869598748375194770, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: footstepsRef.Guid.Data3
-      value: -102109308
+      value: -291885415
       objectReference: {fileID: 0}
     - target: {fileID: 3869598748375194770, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: footstepsRef.Guid.Data4
-      value: 287707194
+      value: 1459056509
       objectReference: {fileID: 0}
     - target: {fileID: 4513604635396286283, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: m_Animation
@@ -25083,19 +25084,19 @@ PrefabInstance:
       objectReference: {fileID: 866366884}
     - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: sound.Guid.Data1
-      value: 1232996157
+      value: -638761587
       objectReference: {fileID: 0}
     - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: sound.Guid.Data2
-      value: 1328339522
+      value: 1127504306
       objectReference: {fileID: 0}
     - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: sound.Guid.Data3
-      value: 1497561495
+      value: 1810181782
       objectReference: {fileID: 0}
     - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: sound.Guid.Data4
-      value: -569754294
+      value: -1774881454
       objectReference: {fileID: 0}
     - target: {fileID: 5795471742814532328, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: disableControlSender
@@ -27174,10 +27175,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: -495527781
-      Data2: 1281834533
-      Data3: 644311707
-      Data4: -545748994
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
     Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
@@ -27301,10 +27302,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 52908339}
   setShaderAreaRadius: 0
@@ -27381,10 +27382,10 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 2113765836
-      Data2: 1144441775
-      Data3: -1384488286
-      Data4: -1048784237
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
     Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 52908339}
   setShaderAreaRadius: 0

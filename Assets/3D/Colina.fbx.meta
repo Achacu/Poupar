@@ -3,7 +3,12 @@ guid: 379f8ca47eaf0884e91d27395518220c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColinaMat
+    second: {fileID: 2100000, guid: c59bb6b910610834896f2a5b1c9e2117, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
