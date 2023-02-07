@@ -2115,11 +2115,11 @@ MonoBehaviour:
   - sender: {fileID: 7558379298260274265}
     sound:
       Guid:
-        Data1: 567829850
-        Data2: 1314211705
-        Data3: -2018679933
-        Data4: 2041063369
-      Path: event:/Objetos 3D/Lluvia interior
+        Data1: -670189177
+        Data2: 1291265028
+        Data3: 757047689
+        Data4: 1013610044
+      Path: event:/Objetos 3D/Lluvia_interior
 --- !u!1 &728993513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,6 +2395,22 @@ PrefabInstance:
       propertyPath: triggerSender
       value: 
       objectReference: {fileID: 769314346}
+    - target: {fileID: 4451833924989572741, guid: 25263150c1e910845b5e05a8d9844f4c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data1
+      value: 875468201
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451833924989572741, guid: 25263150c1e910845b5e05a8d9844f4c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data2
+      value: 1214552611
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451833924989572741, guid: 25263150c1e910845b5e05a8d9844f4c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data3
+      value: -1952686160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451833924989572741, guid: 25263150c1e910845b5e05a8d9844f4c, type: 3}
+      propertyPath: eventSounds.Array.data[0].sound.Guid.Data4
+      value: 783445601
+      objectReference: {fileID: 0}
     - target: {fileID: 4451833924989572742, guid: 25263150c1e910845b5e05a8d9844f4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.891663
@@ -3908,11 +3924,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -4101,11 +4117,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: 567829850
-        Data2: 1314211705
-        Data3: -2018679933
-        Data4: 2041063369
-      Path: event:/Objetos 3D/Lluvia interior
+        Data1: -670189177
+        Data2: 1291265028
+        Data3: 757047689
+        Data4: 1013610044
+      Path: event:/Objetos 3D/Lluvia_interior
 --- !u!1 &1209523249
 GameObject:
   m_ObjectHideFlags: 0
@@ -6428,11 +6444,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: 606450190
+      Data2: 1257825110
+      Data3: -549991524
+      Data4: 182731292
+    Path: event:/Colisiones/Colision_sorda_pared_1
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 2
@@ -9437,10 +9453,10 @@ MonoBehaviour:
   - sender: {fileID: 7558379298260274265}
     sound:
       Guid:
-        Data1: 146864506
-        Data2: 1338176062
-        Data3: -1237688929
-        Data4: 293430299
+        Data1: 1122593142
+        Data2: 1145759347
+        Data3: 122690694
+        Data4: 1753104539
       Path: event:/Objetos 3D/Reloj
 --- !u!114 &6192697233977599756
 MonoBehaviour:
@@ -10426,11 +10442,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10719,10 +10735,10 @@ MonoBehaviour:
   - sender: {fileID: 7558379298260274265}
     sound:
       Guid:
-        Data1: -1882232566
-        Data2: 1189310402
-        Data3: -1318458195
-        Data4: -1972187106
+        Data1: -984933743
+        Data2: 1186634950
+        Data3: 1631581058
+        Data4: -2109243292
       Path: event:/Acciones/Abrir puerta
 --- !u!114 &7558379298260274268
 MonoBehaviour:
@@ -10743,11 +10759,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -10992,11 +11008,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -11261,11 +11277,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 2
@@ -11695,11 +11711,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -11809,18 +11825,18 @@ MonoBehaviour:
   - sender: {fileID: 9023302338404594722}
     sound:
       Guid:
-        Data1: 1603497703
-        Data2: 1304045260
-        Data3: -1514135640
-        Data4: -1682332660
+        Data1: 1800881303
+        Data2: 1129642450
+        Data3: 1432213668
+        Data4: -1365092844
       Path: event:/Acciones/Puerta bloqueada
   - sender: {fileID: 1041364946}
     sound:
       Guid:
-        Data1: -1882232566
-        Data2: 1189310402
-        Data3: -1318458195
-        Data4: -1972187106
+        Data1: -984933743
+        Data2: 1186634950
+        Data3: 1631581058
+        Data4: -2109243292
       Path: event:/Acciones/Abrir puerta
 --- !u!114 &9023302338404594724
 MonoBehaviour:
@@ -11887,11 +11903,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1

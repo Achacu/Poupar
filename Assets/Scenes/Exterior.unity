@@ -2577,11 +2577,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!1 &142057088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,11 +2869,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -3529,11 +3529,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -6722,11 +6722,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 145572089
-      Data2: 1319000000
-      Data3: 138829706
-      Data4: -823345344
-    Path: event:/Colisiones/Colison_arbol
+      Data1: -1666109334
+      Data2: 1174101192
+      Data3: -1421559917
+      Data4: -1128635313
+    Path: event:/Colisiones/Colision_arbol
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 5
@@ -6792,11 +6792,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!4 &475200398
 Transform:
   m_ObjectHideFlags: 0
@@ -7709,11 +7709,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -7968,11 +7968,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -8070,11 +8070,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -8337,11 +8337,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 145572089
-      Data2: 1319000000
-      Data3: 138829706
-      Data4: -823345344
-    Path: event:/Colisiones/Colison_arbol
+      Data1: -1666109334
+      Data2: 1174101192
+      Data3: -1421559917
+      Data4: -1128635313
+    Path: event:/Colisiones/Colision_arbol
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 5
@@ -9918,11 +9918,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -11250,11 +11250,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!1 &899241275
 GameObject:
   m_ObjectHideFlags: 0
@@ -12076,11 +12076,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!1 &959772426
 GameObject:
   m_ObjectHideFlags: 0
@@ -12666,11 +12666,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -13971,10 +13971,10 @@ MonoBehaviour:
   - sender: {fileID: 866366884}
     sound:
       Guid:
-        Data1: -216626159
-        Data2: 1197559949
-        Data3: -1845559114
-        Data4: -415772224
+        Data1: -143332446
+        Data2: 1152349369
+        Data3: 10903732
+        Data4: 388828783
       Path: event:/Objetos 3D/Tumulto ciudad
 --- !u!1 &1067429654
 GameObject:
@@ -15730,11 +15730,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!4 &1194836103
 Transform:
   m_ObjectHideFlags: 0
@@ -17156,11 +17156,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 145572089
-      Data2: 1319000000
-      Data3: 138829706
-      Data4: -823345344
-    Path: event:/Colisiones/Colison_arbol
+      Data1: -1666109334
+      Data2: 1174101192
+      Data3: -1421559917
+      Data4: -1128635313
+    Path: event:/Colisiones/Colision_arbol
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 5
@@ -17429,10 +17429,10 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: 933675528
-        Data2: 1327173344
-        Data3: 1347009704
-        Data4: -2098142786
+        Data1: -818352821
+        Data2: 1182204295
+        Data3: -518739010
+        Data4: -417699568
       Path: event:/Objetos 3D/Abeja
 --- !u!114 &1449376114
 MonoBehaviour:
@@ -18481,11 +18481,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -18578,11 +18578,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -19697,10 +19697,10 @@ MonoBehaviour:
   - sender: {fileID: 866366884}
     sound:
       Guid:
-        Data1: 497813664
-        Data2: 1239454612
-        Data3: -462492745
-        Data4: -1785474036
+        Data1: 1761259832
+        Data2: 1287925063
+        Data3: -622707572
+        Data4: 1419971366
       Path: event:/Objetos 3D/Campanadas
 --- !u!1 &1639358900
 GameObject:
@@ -20274,11 +20274,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!4 &1675945589
 Transform:
   m_ObjectHideFlags: 0
@@ -20342,11 +20342,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!1 &1686409810
 GameObject:
   m_ObjectHideFlags: 0
@@ -21538,11 +21538,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 145572089
-      Data2: 1319000000
-      Data3: 138829706
-      Data4: -823345344
-    Path: event:/Colisiones/Colison_arbol
+      Data1: -1666109334
+      Data2: 1174101192
+      Data3: -1421559917
+      Data4: -1128635313
+    Path: event:/Colisiones/Colision_arbol
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 5
@@ -21674,10 +21674,10 @@ MonoBehaviour:
   - sender: {fileID: 1766304387}
     sound:
       Guid:
-        Data1: 1603497703
-        Data2: 1304045260
-        Data3: -1514135640
-        Data4: -1682332660
+        Data1: 1800881303
+        Data2: 1129642450
+        Data3: 1432213668
+        Data4: -1365092844
       Path: event:/Acciones/Puerta bloqueada
 --- !u!114 &1766304390
 MonoBehaviour:
@@ -22089,11 +22089,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 145572089
-      Data2: 1319000000
-      Data3: 138829706
-      Data4: -823345344
-    Path: event:/Colisiones/Colison_arbol
+      Data1: -1666109334
+      Data2: 1174101192
+      Data3: -1421559917
+      Data4: -1128635313
+    Path: event:/Colisiones/Colision_arbol
   sender: {fileID: 0}
   setShaderAreaRadius: 1
   perObjectAreaRadius: 5
@@ -23533,11 +23533,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 1241003506
-      Data2: 1333853341
-      Data3: -487460727
-      Data4: 1965658746
-    Path: event:/Colisiones/Colision_madera_2
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -24956,43 +24956,43 @@ PrefabInstance:
       objectReference: {fileID: 866366884}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[0].sound.Path
-      value: "event:/M\xFAsica/M\xFAsica exterior"
+      value: event:/Musica/Musica_exterior
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[1].sound.Path
-      value: "event:/M\xFAsica/Zoom out cidade"
+      value: event:/Musica/Zoom out cidade
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[0].sound.Guid.Data1
-      value: -1196456281
+      value: -2039020769
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[0].sound.Guid.Data2
-      value: 1222617348
+      value: 1212670628
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[0].sound.Guid.Data3
-      value: -641874250
+      value: -461002857
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[0].sound.Guid.Data4
-      value: -774242740
+      value: -1204161399
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[1].sound.Guid.Data1
-      value: 2146341135
+      value: -454327103
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[1].sound.Guid.Data2
-      value: 1333915033
+      value: 1138159734
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[1].sound.Guid.Data3
-      value: 1854067094
+      value: -1866867804
       objectReference: {fileID: 0}
     - target: {fileID: 3650721925732922079, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: eventSounds.Array.data[1].sound.Guid.Data4
-      value: -316610879
+      value: -1319769595
       objectReference: {fileID: 0}
     - target: {fileID: 3869598748375194770, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
       propertyPath: footstepsRef.Path
@@ -25116,6 +25116,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+--- !u!1 &2053351089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5277244241589315840, guid: 793d47084e18cc649a260c82de8e0c5c, type: 3}
+  m_PrefabInstance: {fileID: 2053351088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2053351090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053351089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2060117721
 GameObject:
   m_ObjectHideFlags: 0
@@ -25819,11 +25857,11 @@ MonoBehaviour:
   colPosIndex: 0
   colSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1366637987
+      Data2: 1078090899
+      Data3: -1586793341
+      Data4: 61057483
+    Path: event:/Colisiones/Colision_madera_1
   sender: {fileID: 0}
   setShaderAreaRadius: 0
   perObjectAreaRadius: 1
@@ -26126,11 +26164,11 @@ MonoBehaviour:
   - sender: {fileID: 0}
     sound:
       Guid:
-        Data1: -1123709928
-        Data2: 1154883744
-        Data3: 1404360594
-        Data4: -2094591196
-      Path: "event:/Objetos 3D/R\xEDo"
+        Data1: 149853189
+        Data2: 1300870701
+        Data3: 796143243
+        Data4: -317652523
+      Path: event:/Objetos 3D/Rio
 --- !u!4 &48024139749937346
 Transform:
   m_ObjectHideFlags: 0

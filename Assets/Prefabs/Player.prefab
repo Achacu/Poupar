@@ -187,10 +187,10 @@ MonoBehaviour:
   move: {fileID: 6362894679334883625}
   footstepsRef:
     Guid:
-      Data1: -1149044316
-      Data2: 1084606696
-      Data3: 712508831
-      Data4: -2024965091
+      Data1: 1164735584
+      Data2: 1122039623
+      Data3: -1884073032
+      Data4: 412293333
     Path: event:/Pisadas/Madera
 --- !u!1 &6362894679788234936
 GameObject:
