@@ -8375,7 +8375,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 729471915}
   - {fileID: 773398238}
   m_Father: {fileID: 0}
   m_RootOrder: 22
@@ -9687,7 +9686,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 729471915}
-  - component: {fileID: 729471916}
   m_Layer: 0
   m_Name: Casas
   m_TagString: Untagged
@@ -9703,7 +9701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729471914}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 59.719997, y: -10.3, z: 6.4399986}
+  m_LocalPosition: {x: 59.72002, y: -10.299999, z: 21.440006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9717,25 +9715,72 @@ Transform:
   - {fileID: 1295353092}
   - {fileID: 1201316841}
   - {fileID: 1066566512}
+  m_Father: {fileID: 773398238}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &730894391 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1122427853962064952, guid: 6018e21ae240aa440beb2d64bed9ebd1, type: 3}
+  m_PrefabInstance: {fileID: 649753424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &773398237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773398238}
+  - component: {fileID: 773398239}
+  m_Layer: 0
+  m_Name: Campanario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &773398238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773398237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1190874831}
+  - {fileID: 1051973095}
+  - {fileID: 1878502549}
+  - {fileID: 2102233828}
+  - {fileID: 1632517772}
+  - {fileID: 729471915}
   m_Father: {fileID: 635341166}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &729471916
+--- !u!114 &773398239
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729471914}
+  m_GameObject: {fileID: 773398237}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ee94027b94ce984b9385af87a736b4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundPlayer: {fileID: 1066566513}
+  soundPlayer: {fileID: 1632517773}
   soundPlayers:
-  - {fileID: 1066566513}
+  - {fileID: 1632517773}
   meshes:
+  - {fileID: 1190874832}
+  - {fileID: 1051973096}
+  - {fileID: 1878502550}
+  - {fileID: 2102233829}
   - {fileID: 560359890}
   - {fileID: 560359889}
   - {fileID: 1008998249}
@@ -9782,74 +9827,6 @@ MonoBehaviour:
   - {fileID: 728170284}
   - {fileID: 1307574206}
   - {fileID: 1842551559}
-  maxValue: 0.017
-  minValue: 0.00001
-  maxDecrease: 0.005
-  maxIncrease: 0.005
-  hasOwnDitherScale: 1
-  ownDitherScale: 1
---- !u!23 &730894391 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 1122427853962064952, guid: 6018e21ae240aa440beb2d64bed9ebd1, type: 3}
-  m_PrefabInstance: {fileID: 649753424}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &773398237
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 773398238}
-  - component: {fileID: 773398239}
-  m_Layer: 0
-  m_Name: Campanario
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &773398238
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773398237}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1190874831}
-  - {fileID: 1051973095}
-  - {fileID: 1878502549}
-  - {fileID: 2102233828}
-  - {fileID: 1632517772}
-  m_Father: {fileID: 635341166}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &773398239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773398237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ee94027b94ce984b9385af87a736b4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundPlayer: {fileID: 1632517773}
-  soundPlayers:
-  - {fileID: 1632517773}
-  meshes:
-  - {fileID: 1190874832}
-  - {fileID: 1051973096}
-  - {fileID: 1878502550}
-  - {fileID: 2102233829}
   maxValue: 0.03
   minValue: 0.00001
   maxDecrease: 0.005
