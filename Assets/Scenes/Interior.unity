@@ -142,9 +142,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_text
-      value: 'Usa o rato para mirar e interactuar
-
-'
+      value: Use the mouse to look around and interact
       objectReference: {fileID: 0}
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_fontAsset
@@ -1190,7 +1188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722881776421099734, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_text
-      value: Comezar
+      value: Begin
       objectReference: {fileID: 0}
     - target: {fileID: 1722881776421099734, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_fontSize
@@ -1299,7 +1297,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_text
-      value: "Recom\xE9ndase xogar con cascos"
+      value: Headphones recommended
       objectReference: {fileID: 0}
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_fontAsset
@@ -3791,12 +3789,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_text
-      value: "Unha experiencia xogable inspirada en \n\"O cego de Pumarded\xF3n\"
-        de Francisco Fern\xE1ndez del Riego"
+      value: "A playable experience inspired by \"The blind man of Pumarded\xF3n\"
+        by Francisco Fern\xE1ndez del Riego"
       objectReference: {fileID: 0}
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_fontSize
-      value: 19.95
+      value: 25.05
       objectReference: {fileID: 0}
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_fontStyle
@@ -4318,7 +4316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722881776421099734, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_text
-      value: "Sa\xEDr"
+      value: Leave
       objectReference: {fileID: 0}
     - target: {fileID: 1722881776421099734, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_fontSize
@@ -6264,7 +6262,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_text
-      value: "M\xF3vete coas teclas WASD\n"
+      value: Move around with WASD
       objectReference: {fileID: 0}
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_fontAsset

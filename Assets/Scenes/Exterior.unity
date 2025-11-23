@@ -10486,7 +10486,7 @@ PrefabInstance:
     - target: {fileID: 7915128794268013501, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: dialogueGroups.Array.data[6].trigger
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6877933583669193959}
     - target: {fileID: 7915128794299995950, guid: 977e3d00172b9874d99cdad09451c3c7, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -17528,7 +17528,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_text
-      value: 'Pensamentos descubertos:'
+      value: 'Thoughts found:'
       objectReference: {fileID: 0}
     - target: {fileID: 8489285106902216392, guid: 4f9552e46ece9e34abf028552c3b575f, type: 3}
       propertyPath: m_fontSize

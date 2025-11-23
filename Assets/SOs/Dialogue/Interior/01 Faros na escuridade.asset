@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 01 Faros na escuridade
   m_EditorClassIdentifier: 
-  line: Faros na escuridade que o protexen do constante enigma do exterior.
+  line: Beacons in the dark that shield him from the constant enigma of the outside
+    world.
   duration: 3

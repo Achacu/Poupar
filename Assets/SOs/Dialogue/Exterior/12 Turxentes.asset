@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 12 Turxentes
   m_EditorClassIdentifier: 
-  line: "Turxentes. Sen a axuda da cor, a textura dos tomates indica que xa est\xE1n
-    chegados."
+  line: Turgid. Without the color, the texture of the tomatoes indicates their ripeness.
   duration: 3.5

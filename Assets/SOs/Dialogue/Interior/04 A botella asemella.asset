@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 04 A botella asemella
   m_EditorClassIdentifier: 
-  line: "A botella asemella unha tentaci\xF3n, mais a amenaza de relembrar memorias
-    dunha vida pasada"
+  line: The bottle looks tempting but the threat of remembering a past life
   duration: 3.5

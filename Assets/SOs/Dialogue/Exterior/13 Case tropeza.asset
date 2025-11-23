@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 13 Case tropeza
   m_EditorClassIdentifier: 
-  line: "Case tropeza ca peneda. Non hai cousa peor que os erros de orientaci\xF3n,
-    os seus hesitamentos."
+  line: He almost stumbles over the rock. There's nothing worse than the orientation
+    troubles, the hesitation.
   duration: 3.5

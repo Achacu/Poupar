@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEngine.Analytics;
 
 public class UIManager : MonoBehaviour
 {
@@ -137,16 +138,19 @@ public class UIManager : MonoBehaviour
     [SerializeField] private float fadeInTime = 1f;
     private IEnumerator FadeInOutScreen(Transform screen, bool fadeIn)
     {
+        if (!fadeIn && screen.gameObject == HUD) screen = HUD.transform.GetChild(1); //prevents subtitles disappearing when bell rings
+
         float startTime = Time.time;
         TextMeshProUGUI[] texts = screen.GetComponentsInChildren<TextMeshProUGUI>();
         Image[] imgs = screen.GetComponentsInChildren<Image>();
         float alpha;
         float timeRatio = 0f;
         if (fadeIn) screen.gameObject.SetActive(true);
+
         while (timeRatio <= 1)
         {
-            timeRatio = (Time.time - startTime) / (fadeIn? fadeInTime : fadeOutTime);
-            alpha = fadeIn? timeRatio : 1-timeRatio;
+            timeRatio = (Time.time - startTime) / (fadeIn ? fadeInTime : fadeOutTime);
+            alpha = fadeIn ? timeRatio : 1 - timeRatio;
             for (int i = 0; i < texts.Length; i++)
             {
                 texts[i].alpha = alpha;

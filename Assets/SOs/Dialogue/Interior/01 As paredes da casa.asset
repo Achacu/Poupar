@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 01 As paredes da casa
   m_EditorClassIdentifier: 
-  line: 'As paredes da casa son acolledoras. '
+  line: The walls in the house are homely.
   duration: 2

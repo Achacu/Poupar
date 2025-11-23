@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: "15 Non se chamar\xEDa"
   m_EditorClassIdentifier: 
-  line: "Non se chamar\xEDa primavera sen o recendo fresco dos tulip\xE1ns "
+  line: It wouldn't be called spring without the fresh smell of the tulips.
   duration: 3

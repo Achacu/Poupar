@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 16 Resultaba curioso
   m_EditorClassIdentifier: 
-  line: "Resultaba curioso. O son met\xE1lico. Incluso agresivo. "
+  line: It was curious. That metallic sound. Even aggresive.
   duration: 3

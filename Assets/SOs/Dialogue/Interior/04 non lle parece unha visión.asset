@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: "04 non lle parece unha visi\xF3n"
   m_EditorClassIdentifier: 
-  line: " non lle parece unha visi\xF3n alentadora."
+  line: does not seem an encouraging sight.
   duration: 2

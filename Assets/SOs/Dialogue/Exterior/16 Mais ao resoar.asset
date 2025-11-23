@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93215ac7156de9c4088f9bacbcaf8d46, type: 3}
   m_Name: 16 Mais ao resoar
   m_EditorClassIdentifier: 
-  line: "Mais ao resoar as badaladas no val, asemella coma se sempre estiveran al\xED.  "
+  line: But as the ringing echoed through the valley, it feels like it's always been
+    there.
   duration: 3
