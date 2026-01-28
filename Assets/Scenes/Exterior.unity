@@ -9373,7 +9373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722881776421099734, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_text
-      value: Voltar
+      value: Main menu
       objectReference: {fileID: 0}
     - target: {fileID: 1722881776421099734, guid: 820b0662947ea864084a199075de560f, type: 3}
       propertyPath: m_fontColor.b
